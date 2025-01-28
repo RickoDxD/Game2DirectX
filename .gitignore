@@ -1,0 +1,66 @@
+# Ignore Visual Studio specific files
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.pdb
+*.ipch
+*.tlog
+*.log
+*.lastbuildstate
+*.idb
+
+# Ignore build artifacts
+/bin/
+/build/
+*.obj
+*.o
+*.exe
+*.dll
+*.exp
+*.lib
+*.ilk
+*.iobj
+*.ipdb
+*.manifest
+*.map
+*.pch
+*.rsp
+
+# Ignore SFML dependencies (if manually included)
+SFML-2.5.1/lib/*
+SFML-2.5.1/bin/*
+!SFML-2.5.1/lib/*.lib
+!SFML-2.5.1/bin/*.dll
+
+# Ignore CMake-generated files (if using CMake)
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+build/
+compile_commands.json
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swn
+*.swo
+*.db
+
+# Ignore debug and release folders
+Debug/
+Release/
+x64/
+x86/
+
+# Ignore user-specific settings
+*.user
+*.sln.DotSettings
+
+# Ignore SFML-generated log files (if any)
+sfml.log

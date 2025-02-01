@@ -525,7 +525,7 @@ void QuatApp::LoadTextures()
 		L"../../Textures/bricks2.dds",
 		L"../../Textures/tile.dds",
 		L"../../Textures/white1x1.dds",
-		L"../../Textures/grasscube1024.dds"
+		L"../../Textures/sunsetcube1024.dds"
 	};
 
 	for (int i = 0; i < (int)texNames.size(); ++i)

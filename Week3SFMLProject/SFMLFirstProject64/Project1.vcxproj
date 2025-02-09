@@ -26,10 +26,24 @@
   <ItemGroup>
     <None Include="Include\ResourceHolder.inl" />
     <None Include="Include\StringHelpers.inl" />
+    <None Include="Media\Sound\nice_music.ogg" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Game.cpp" />
     <ClCompile Include="Source\Week3-Demo1-main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Media\Textures\cute_image.jpg" />
+    <Image Include="Media\Textures\Desert.png" />
+    <Image Include="Media\Textures\Eagle.png" />
+    <Image Include="Media\Textures\icon.png" />
+    <Image Include="Media\Textures\Mushroom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Media\Sound\nice_music.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Media\Sansation.ttf" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

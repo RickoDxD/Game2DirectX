@@ -1,0 +1,40 @@
+\doxysection{SFMLFirst\+Project64/\+Source/\+Week3-\/\+Demo1-\/main.cpp File Reference}
+\hypertarget{_week3-_demo1-main_8cpp}{}\label{_week3-_demo1-main_8cpp}\index{SFMLFirstProject64/Source/Week3-\/Demo1-\/main.cpp@{SFMLFirstProject64/Source/Week3-\/Demo1-\/main.cpp}}
+
+
+Generalizing the approach\+: \doxylink{class_resource_holder}{Resource\+Holder} We have implemented everything we need for textures, but we would like to handle other resources such as fonts and sound buffers too. As the implementation looks extremely similar for them, it would be a bad idea to write new classes \doxylink{_resource_identifiers_8hpp_a4dd8f1c935b1c957b8628dcbd63ab304}{Font\+Holder} and Sound\+Buffer\+Holder with exactly the same functionality. Instead, we write a class template, which we instantiate for different resource classes. We call our template \doxylink{class_resource_holder}{Resource\+Holder} and equip it with two template parameters\+: • Resource\+: The type of resource, for example, sf\+::\+Texture. We design the class template to work the SFML classes, but if you have your own resource class which conforms to the required interface (providing load\+From\+File() methods), nothing keeps you from using it together with \doxylink{class_resource_holder}{Resource\+Holder}. • Identifier\+: The ID type for resource access, for example, \doxylink{namespace_textures_a2cfe2099537d4e80b08437b4978301a5}{Textures\+::\+ID}. This will usually be an enum, but the type is not restricted to enumerations. Any type that supports an operator\texorpdfstring{$<$}{<} can be used as identifier, for example, std\+::string.  
+
+
+{\ttfamily \#include "{}Game.\+hpp"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_week3-_demo1-main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generalizing the approach\+: \doxylink{class_resource_holder}{Resource\+Holder} We have implemented everything we need for textures, but we would like to handle other resources such as fonts and sound buffers too. As the implementation looks extremely similar for them, it would be a bad idea to write new classes \doxylink{_resource_identifiers_8hpp_a4dd8f1c935b1c957b8628dcbd63ab304}{Font\+Holder} and Sound\+Buffer\+Holder with exactly the same functionality. Instead, we write a class template, which we instantiate for different resource classes. We call our template \doxylink{class_resource_holder}{Resource\+Holder} and equip it with two template parameters\+: • Resource\+: The type of resource, for example, sf\+::\+Texture. We design the class template to work the SFML classes, but if you have your own resource class which conforms to the required interface (providing load\+From\+File() methods), nothing keeps you from using it together with \doxylink{class_resource_holder}{Resource\+Holder}. • Identifier\+: The ID type for resource access, for example, \doxylink{namespace_textures_a2cfe2099537d4e80b08437b4978301a5}{Textures\+::\+ID}. This will usually be an enum, but the type is not restricted to enumerations. Any type that supports an operator\texorpdfstring{$<$}{<} can be used as identifier, for example, std\+::string. 
+
+\begin{DoxyAuthor}{Author}
+Hooman Salamat 
+\end{DoxyAuthor}
+\begin{DoxyRefDesc}{Bug}
+\item[\mbox{\hyperlink{bug__bug000001}{Bug}}]No known bugs. \end{DoxyRefDesc}
+
+
+Definition in file \mbox{\hyperlink{_week3-_demo1-main_8cpp_source}{Week3-\/\+Demo1-\/main.\+cpp}}.
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{_week3-_demo1-main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4}\index{Week3-\/Demo1-\/main.cpp@{Week3-\/Demo1-\/main.cpp}!main@{main}}
+\index{main@{main}!Week3-\/Demo1-\/main.cpp@{Week3-\/Demo1-\/main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily \label{_week3-_demo1-main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4} 
+int main (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Definition at line \mbox{\hyperlink{_week3-_demo1-main_8cpp_source_l00024}{24}} of file \mbox{\hyperlink{_week3-_demo1-main_8cpp_source}{Week3-\/\+Demo1-\/main.\+cpp}}.
+

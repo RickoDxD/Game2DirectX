@@ -1,0 +1,46 @@
+\doxysection{Player.\+hpp}
+\hypertarget{_player_8hpp_source}{}\label{_player_8hpp_source}\index{SFMLFirstProject64/Include/Player.hpp@{SFMLFirstProject64/Include/Player.hpp}}
+\mbox{\hyperlink{_player_8hpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00001}00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00002}00002\ \textcolor{preprocessor}{\#pragma\ region\ step\ 1}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00003}00003\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00004}00004\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00005}00005\ \textcolor{preprocessor}{\#include\ <SFML/Graphics/Sprite.hpp>}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ <SFML\(\backslash\)Graphics.hpp>}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00007}00007\ \textcolor{preprocessor}{\#include\ <SFML/Graphics/Transformable.hpp>}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00008}00008\ \textcolor{preprocessor}{\#include\ <SFML/Graphics/Drawable.hpp>}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00009}00009\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_resource_identifiers_8hpp}{ResourceIdentifiers.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00010}00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_resource_holder_8hpp}{ResourceHolder.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00011}00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{_entity_8hpp}{Entity.hpp}}"{}}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00012}00012\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00013}00013\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00014}00014\ \textcolor{keyword}{class\ }Player\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{class_entity}{Entity}}}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00015}00015\ \{}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00017}00017\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00018}00018\ \ \ \ \ \textcolor{keyword}{enum\ class}\ Type}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00019}00019\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00020}00020\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{_resource_identifiers_8hpp_aac8c8e4db184e4a83ec51cdec293c11da7885830f9d3a8722f628e2985cd26daf}{Eagle}},}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00021}00021\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{_resource_identifiers_8hpp_aac8c8e4db184e4a83ec51cdec293c11da6cb576ec13726583fab7df279410f9b2}{Raptor}},}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00022}00022\ \ \ \ \ \};}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00023}00023\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00024}00024\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00025}00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00026}00026\ \ \ \ \ Player();}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00027}00027\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00028}00028\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00029}00029\ \ \ \ \ sf::Sprite\&\ getSprite();}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00030}00030\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00031}00031\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ draw(sf::RenderTarget\&\ target,\ sf::RenderStates\ states)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00032}00032\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_entity_ad4c7040077b38b91f06b2cd262cdc842}{update}}(sf::Time);}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00033}00033\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00034}00034\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00035}00035\ }
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00036}00036\ \ \ \ \ sf::Sprite\ mSprite;}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00037}00037\ \ \ \ \ sf::Texture\ texture2;}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00038}00038\ \ \ \ \ \mbox{\hyperlink{_resource_identifiers_8hpp_a20081b48ee5a91313685df1b4fa610d1}{TextureHolder}}\ textures;}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00039}00039\ \};}
+\DoxyCodeLine{\Hypertarget{_player_8hpp_source_l00040}00040\ }
+
+\end{DoxyCode}

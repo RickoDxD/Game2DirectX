@@ -1,0 +1,3609 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;\red0\green128\blue0;\red96\green64\blue32;\rede0\green128\blue0;\red128\green0\blue0;\red128\green96\blue32;\red0\green32\blue128;\red0\green128\blue128;\red255\green0\blue255;\red0\green0\blue0;\red112\green0\blue112;\red255\green0\blue0;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\paperw11900\paperh16840\margl1800\margr1800\margt1440\margb1440\gutter0\ltrsect}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s6\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs12\cgrid \sbasedon0 \snext0 heading 6;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext50 Code Example 9;}
+{\s50\li3600\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext51 Code Example 10;}
+{\s51\li3960\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext52 Code Example 11;}
+{\s52\li4320\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 12;}
+{\s53\li4680\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext53 Code Example 13;}
+{\s60\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext61 List Continue 0;}
+{\s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext62 List Continue 1;}
+{\s62\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext63 List Continue 2;}
+{\s63\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext64 List Continue 3;}
+{\s64\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext65 List Continue 4;}
+{\s65\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext66 List Continue 5;}
+{\s66\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext67 List Continue 6;}
+{\s67\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext68 List Continue 7;}
+{\s68\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext69 List Continue 8;}
+{\s69\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext70 List Continue 9;}
+{\s70\li3600\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext71 List Continue 10;}
+{\s71\li3960\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext72 List Continue 11;}
+{\s72\li4320\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 12;}
+{\s73\li4680\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext73 List Continue 13;}
+{\s80\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext81 DescContinue 0;}
+{\s81\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext82 DescContinue 1;}
+{\s82\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext83 DescContinue 2;}
+{\s83\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext84 DescContinue 3;}
+{\s84\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext85 DescContinue 4;}
+{\s85\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext86 DescContinue 5;}
+{\s86\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext87 DescContinue 6;}
+{\s87\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext88 DescContinue 7;}
+{\s88\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext89 DescContinue 8;}
+{\s89\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext90 DescContinue 9;}
+{\s90\li3600\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext91 DescContinue 10;}
+{\s91\li3960\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext92 DescContinue 11;}
+{\s92\li4320\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 12;}
+{\s93\li4680\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext93 DescContinue 13;}
+{\s100\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext101 LatexTOC 0;}
+{\s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext102 LatexTOC 1;}
+{\s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext103 LatexTOC 2;}
+{\s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext104 LatexTOC 3;}
+{\s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext105 LatexTOC 4;}
+{\s105\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext106 LatexTOC 5;}
+{\s106\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext107 LatexTOC 6;}
+{\s107\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext108 LatexTOC 7;}
+{\s108\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext109 LatexTOC 8;}
+{\s109\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext110 LatexTOC 9;}
+{\s110\li3600\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext111 LatexTOC 10;}
+{\s111\li3960\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext112 LatexTOC 11;}
+{\s112\li4320\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 12;}
+{\s113\li4680\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext113 LatexTOC 13;}
+{\s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext121 \sautoupd List Bullet 0;}
+{\s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext122 \sautoupd List Bullet 1;}
+{\s122\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext123 \sautoupd List Bullet 2;}
+{\s123\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext124 \sautoupd List Bullet 3;}
+{\s124\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext125 \sautoupd List Bullet 4;}
+{\s125\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext126 \sautoupd List Bullet 5;}
+{\s126\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext127 \sautoupd List Bullet 6;}
+{\s127\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext128 \sautoupd List Bullet 7;}
+{\s128\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext129 \sautoupd List Bullet 8;}
+{\s129\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext130 \sautoupd List Bullet 9;}
+{\s130\fi-360\li3960\widctlpar\jclisttab\tx3960{\*\pn \pnlvlbody\ilvl0\ls11\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext131 \sautoupd List Bullet 10;}
+{\s131\fi-360\li4320\widctlpar\jclisttab\tx4320{\*\pn \pnlvlbody\ilvl0\ls12\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext132 \sautoupd List Bullet 11;}
+{\s132\fi-360\li4680\widctlpar\jclisttab\tx4680{\*\pn \pnlvlbody\ilvl0\ls13\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 12;}
+{\s133\fi-360\li5040\widctlpar\jclisttab\tx5040{\*\pn \pnlvlbody\ilvl0\ls14\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext133 \sautoupd List Bullet 13;}
+{\s140\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext141 \sautoupd List Enum 0;}
+{\s141\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext142 \sautoupd List Enum 1;}
+{\s142\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext143 \sautoupd List Enum 2;}
+{\s143\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext144 \sautoupd List Enum 3;}
+{\s144\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext145 \sautoupd List Enum 4;}
+{\s145\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext146 \sautoupd List Enum 5;}
+{\s146\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext147 \sautoupd List Enum 6;}
+{\s147\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext148 \sautoupd List Enum 7;}
+{\s148\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext149 \sautoupd List Enum 8;}
+{\s149\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext150 \sautoupd List Enum 9;}
+{\s150\fi-360\li3960\widctlpar\fs20\cgrid \sbasedon0 \snext151 \sautoupd List Enum 10;}
+{\s151\fi-360\li4320\widctlpar\fs20\cgrid \sbasedon0 \snext152 \sautoupd List Enum 11;}
+{\s152\fi-360\li4680\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 12;}
+{\s153\fi-360\li5040\widctlpar\fs20\cgrid \sbasedon0 \snext153 \sautoupd List Enum 13;}
+}
+{\*\listtable
+{\list\listtemplateid1
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8226 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u8662 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9702 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9642 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid1}
+{\list\listtemplateid2
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9744 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid2}
+{\list\listtemplateid3
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li360 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li720 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1080 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1440 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li1800 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2160 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2520 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li2880 }
+{ \listlevel\levelnfc23\leveljc0\levelstartat1\levelfollow0{\leveltext \'01\u9746 ?;}{\levelnumbers;}\f8\dbch\af3\fi-360\li3600 }
+\listid3}
+}
+{\listoverridetable
+{\listoverride\listid1\listoverridecount0\ls1}
+{\listoverride\listid2\listoverridecount0\ls2}
+{\listoverride\listid3\listoverridecount0\ls3}
+}
+{\info 
+{\title {\comment DirectX12RicoSFML }DirectX12RicoSFML}
+{\comment Generated by doxygen 1.13.2.}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt DirectX12RicoSFML}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version \par\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Table of Contents\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\par \pard\plain 
+\par \pard\plain 
+\pard\plain \s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Bug List\par \pard\plain 
+{\tc\tcl1 \v Bug List}
+{\xe \v Bug List}
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+File {\b Week3-Demo1-main.cpp}  \par
+}
+{\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+No known bugs. \par}
+}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespace Index\par \pard\plain 
+{\tc \v Namespace Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Namespace List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all namespaces with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b sf} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Textures} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADW \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Hierarchical Index\par \pard\plain 
+{\tc \v Hierarchical Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class Hierarchy\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid This inheritance list is sorted roughly, but not completely, alphabetically:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+sf::Drawable
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+SceneNode\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADF \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s103\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Entity\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACR \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s104\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Aircraft\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+SpriteNode\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+}\par
+sf::NonCopyable
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+Game\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+SceneNode\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+World\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+ResourceHolder< Resource, Identifier >\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+sf::Transformable
+{
+\par
+\pard\plain \s102\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+SceneNode\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Index\par \pard\plain 
+{\tc \v Class Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Class List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here are the classes, structs, unions and interfaces with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b Aircraft} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Entity} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b Game} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b ResourceHolder< Resource, Identifier >} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b SceneNode} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b SpriteNode} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADN \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b World} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADQ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Index\par \pard\plain 
+{\tc \v File Index}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+File List\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Here is a list of all files with brief descriptions:}
+{
+\par
+\pard\plain \s101\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b SFMLFirstProject/Source/{\b game.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b Aircraft.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b Entity.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABB \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b Game.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b Player.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b Player2.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b ResourceHolder.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b ResourceHolder.inl} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b ResourceIdentifiers.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b SceneNode.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABT \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b SpriteNode.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABU \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b StringHelpers.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABV \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b StringHelpers.inl} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Include/{\b World.hpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Source/{\b Aircraft.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Source/{\b Entity.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Source/{\b Game.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Source/{\b Player.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Source/{\b Player2.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACE \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Source/{\b SceneNode.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACF \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Source/{\b SpriteNode.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Source/{\b Week3-Demo1-main.cpp} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Generalizing the approach: {\b ResourceHolder} We have implemented everything we need for textures, but we would like to handle other resources such as fonts and sound buffers too. As the implementation looks extremely similar for them, it would be a bad idea to write new classes {\b FontHolder} and SoundBufferHolder with exactly the same functionality. Instead, we write a class template, which we instantiate for different resource classes. We call our template {\b ResourceHolder} and equip it with two template parameters: \'95 Resource: The type of resource, for example, sf::Texture. We design the class template to work the SFML classes, but if you have your own resource class which conforms to the required interface (providing loadFromFile() methods), nothing keeps you from using it together with {\b ResourceHolder}. \'95 Identifier: The ID type for resource access, for example, {\b Textures::ID}. This will usually be an enum, but the type is not restricted to enumerations. Any type that supports an operator< can be used as identifier, for example, std::string })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b SFMLFirstProject64/Source/{\b World.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Namespace Documentation\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+sf Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v sf}
+{\xe \v sf}
+{\bkmkstart AAAAAAAADV}
+{\bkmkend AAAAAAAADV}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Textures Namespace Reference\par \pard\plain 
+{\tc\tcl2 \v Textures}
+{\xe \v Textures}
+{\bkmkstart AAAAAAAADW}
+{\bkmkend AAAAAAAADW}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerations\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b ID} \{ {\b Landscape}
+, {\b Airplane}
+, {\b Eagle}
+, {\b Raptor}
+, {\b Desert}
+ \}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumeration Type Documentation\par
+\pard\plain 
+{\xe \v ID\:Textures}
+{\xe \v Textures\:ID}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b Textures::ID}}}
+\par
+{\bkmkstart AAAAAAAADX}
+{\bkmkend AAAAAAAADX}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumerator:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Landscape\:Textures}
+{\xe \v Textures\:Landscape}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Landscape{\bkmkstart AAAAAAAADY}
+{\bkmkend AAAAAAAADY}
+\cell }{\cell }{\row }
+{\xe \v Airplane\:Textures}
+{\xe \v Textures\:Airplane}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Airplane{\bkmkstart AAAAAAAADZ}
+{\bkmkend AAAAAAAADZ}
+\cell }{\cell }{\row }
+{\xe \v Eagle\:Textures}
+{\xe \v Textures\:Eagle}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Eagle{\bkmkstart AAAAAAAAEA}
+{\bkmkend AAAAAAAAEA}
+\cell }{\cell }{\row }
+{\xe \v Raptor\:Textures}
+{\xe \v Textures\:Raptor}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Raptor{\bkmkstart AAAAAAAAEB}
+{\bkmkend AAAAAAAAEB}
+\cell }{\cell }{\row }
+{\xe \v Desert\:Textures}
+{\xe \v Textures\:Desert}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Desert{\bkmkstart AAAAAAAAEC}
+{\bkmkend AAAAAAAAEC}
+\cell }{\cell }{\row }
+}
+\par
+{
+Definition at line {\b 16} of file {\b ResourceIdentifiers.hpp}.}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Class Documentation{\tc \v Class Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Aircraft Class Reference\par \pard\plain 
+{\tc\tcl2 \v Aircraft}
+{\xe \v Aircraft}
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+\par
+{
+{\f2 #include <Aircraft.hpp>}}\par
+Inheritance diagram for Aircraft:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_aircraft.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Types\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b Type} \{ {\b Eagle}
+, {\b Raptor}
+ \}\par
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Public Types inherited from {\b SceneNode}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+typedef std::unique_ptr< {\b SceneNode} > {\b Ptr}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Aircraft} ({\b Type} type, const {\b TextureHolder} &textures)\par
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Public Member Functions inherited from {\b Entity}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setVelocity} (sf::Vector2f velocity)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setVelocity} (float vx, float vy)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Vector2f {\b getVelocity} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b update} (sf::Time dt)\par
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Public Member Functions inherited from {\b SceneNode}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SceneNode} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b attachChild} ({\b Ptr} child)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Ptr} {\b detachChild} (const {\b SceneNode} &node)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b update} (sf::Time dt)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Vector2f {\b getWorldPosition} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Transform {\b getWorldTransform} () const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Public Attributes inherited from {\b Entity}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Vector2f {\b mVelocity}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definition at line {\b 7} of file {\b Aircraft.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Enumeration Documentation\par
+\pard\plain 
+{\xe \v Type\:Aircraft}
+{\xe \v Aircraft\:Type}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b Aircraft::Type}{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumerator:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Eagle\:Aircraft}
+{\xe \v Aircraft\:Eagle}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Eagle{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+\cell }{\cell }{\row }
+{\xe \v Raptor\:Aircraft}
+{\xe \v Aircraft\:Raptor}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Raptor{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+\cell }{\cell }{\row }
+}
+\par
+{
+Definition at line {\b 10} of file {\b Aircraft.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v Aircraft\:Aircraft}
+{\xe \v Aircraft\:Aircraft}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Aircraft::Aircraft ({\b Type} type, const {\b TextureHolder} & textures)}}
+\par
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 23} of file {\b Aircraft.cpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Include/{\b Aircraft.hpp}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Source/{\b Aircraft.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Entity Class Reference\par \pard\plain 
+{\tc\tcl2 \v Entity}
+{\xe \v Entity}
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+\par
+{
+{\f2 #include <Entity.hpp>}}\par
+Inheritance diagram for Entity:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_entity.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setVelocity} (sf::Vector2f velocity)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b setVelocity} (float vx, float vy)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Vector2f {\b getVelocity} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b update} (sf::Time dt)\par
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Public Member Functions inherited from {\b SceneNode}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SceneNode} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b attachChild} ({\b Ptr} child)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Ptr} {\b detachChild} (const {\b SceneNode} &node)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b update} (sf::Time dt)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Vector2f {\b getWorldPosition} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Transform {\b getWorldTransform} () const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Attributes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Vector2f {\b mVelocity}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Public Types inherited from {\b SceneNode}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+typedef std::unique_ptr< {\b SceneNode} > {\b Ptr}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definition at line {\b 5} of file {\b Entity.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v getVelocity\:Entity}
+{\xe \v Entity\:getVelocity}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+sf::Vector2f Entity::getVelocity () const}}
+\par
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 14} of file {\b Entity.cpp}.}\par
+}
+{\xe \v setVelocity\:Entity}
+{\xe \v Entity\:setVelocity}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Entity::setVelocity (float vx, float vy)}}
+\par
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 8} of file {\b Entity.cpp}.}\par
+}
+{\xe \v setVelocity\:Entity}
+{\xe \v Entity\:setVelocity}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Entity::setVelocity (sf::Vector2f velocity)}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 3} of file {\b Entity.cpp}.}\par
+}
+{\xe \v update\:Entity}
+{\xe \v Entity\:update}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Entity::update (sf::Time dt){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 19} of file {\b Entity.cpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Data Documentation\par
+\pard\plain 
+{\xe \v mVelocity\:Entity}
+{\xe \v Entity\:mVelocity}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+sf::Vector2f Entity::mVelocity}}
+\par
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 15} of file {\b Entity.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Include/{\b Entity.hpp}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Source/{\b Entity.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Game Class Reference\par \pard\plain 
+{\tc\tcl2 \v Game}
+{\xe \v Game}
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+\par
+{
+{\f2 #include <Game.hpp>}}\par
+Inheritance diagram for Game:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_game.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Game} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b run} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definition at line {\b 50} of file {\b Game.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v Game\:Game}
+{\xe \v Game\:Game}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+Game::Game ()}}
+\par
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 9} of file {\b Game.cpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v run\:Game}
+{\xe \v Game\:run}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void Game::run ()}}
+\par
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 153} of file {\b Game.cpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Include/{\b Game.hpp}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Source/{\b Game.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ResourceHolder< Resource, Identifier > Class Template Reference\par \pard\plain 
+{\tc\tcl2 \v ResourceHolder< Resource, Identifier >}
+{\xe \v ResourceHolder< Resource, Identifier >}
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+\par
+{
+{\f2 #include <ResourceHolder.hpp>}}\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b load} (Identifier id, const std::string &filename)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename Parameter> void {\b load} (Identifier id, const std::string &filename, const Parameter &secondParam)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+Resource & {\b get} (Identifier id)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+const Resource & {\b get} (Identifier id) const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+{
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+template<typename Resource, typename Identifier>\par
+class ResourceHolder< Resource, Identifier >\par
+}
+\par
+{
+Definition at line {\b 23} of file {\b ResourceHolder.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v get\:ResourceHolder< Resource, Identifier >}
+{\xe \v ResourceHolder< Resource, Identifier >\:get}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Resource, typename Identifier> Resource & {\b ResourceHolder}< Resource, Identifier >::get (Identifier id)}}
+\par
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 21} of file {\b ResourceHolder.inl}.}\par
+}
+{\xe \v get\:ResourceHolder< Resource, Identifier >}
+{\xe \v ResourceHolder< Resource, Identifier >\:get}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Resource, typename Identifier> const Resource & {\b ResourceHolder}< Resource, Identifier >::get (Identifier id) const}}
+\par
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 32} of file {\b ResourceHolder.inl}.}\par
+}
+{\xe \v load\:ResourceHolder< Resource, Identifier >}
+{\xe \v ResourceHolder< Resource, Identifier >\:load}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Resource, typename Identifier> void {\b ResourceHolder}< Resource, Identifier >::load (Identifier id, const std::string & filename)}}
+\par
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 5} of file {\b ResourceHolder.inl}.}\par
+}
+{\xe \v load\:ResourceHolder< Resource, Identifier >}
+{\xe \v ResourceHolder< Resource, Identifier >\:load}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename Resource, typename Identifier> template<typename Parameter> void {\b ResourceHolder}< Resource, Identifier >::load (Identifier id, const std::string & filename, const Parameter & secondParam)}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Include/{\b ResourceHolder.hpp}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Include/{\b ResourceHolder.inl}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SceneNode Class Reference\par \pard\plain 
+{\tc\tcl2 \v SceneNode}
+{\xe \v SceneNode}
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+\par
+{
+{\f2 #include <SceneNode.hpp>}}\par
+Inheritance diagram for SceneNode:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_scene_node.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Types\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+typedef std::unique_ptr< {\b SceneNode} > {\b Ptr}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SceneNode} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b attachChild} ({\b Ptr} child)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Ptr} {\b detachChild} (const {\b SceneNode} &node)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b update} (sf::Time dt)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Vector2f {\b getWorldPosition} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Transform {\b getWorldTransform} () const\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definition at line {\b 14} of file {\b SceneNode.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Typedef Documentation\par
+\pard\plain 
+{\xe \v Ptr\:SceneNode}
+{\xe \v SceneNode\:Ptr}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+typedef std::unique_ptr<{\b SceneNode}> {\b SceneNode::Ptr}}}
+\par
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 17} of file {\b SceneNode.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v SceneNode\:SceneNode}
+{\xe \v SceneNode\:SceneNode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+SceneNode::SceneNode ()}}
+\par
+{\bkmkstart AAAAAAAADH}
+{\bkmkend AAAAAAAADH}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 8} of file {\b SceneNode.cpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v attachChild\:SceneNode}
+{\xe \v SceneNode\:attachChild}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void SceneNode::attachChild ({\b Ptr} child)}}
+\par
+{\bkmkstart AAAAAAAADI}
+{\bkmkend AAAAAAAADI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 14} of file {\b SceneNode.cpp}.}\par
+}
+{\xe \v detachChild\:SceneNode}
+{\xe \v SceneNode\:detachChild}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b SceneNode::Ptr} SceneNode::detachChild (const {\b SceneNode} & node)}}
+\par
+{\bkmkstart AAAAAAAADJ}
+{\bkmkend AAAAAAAADJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 20} of file {\b SceneNode.cpp}.}\par
+}
+{\xe \v getWorldPosition\:SceneNode}
+{\xe \v SceneNode\:getWorldPosition}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+sf::Vector2f SceneNode::getWorldPosition () const}}
+\par
+{\bkmkstart AAAAAAAADK}
+{\bkmkend AAAAAAAADK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 72} of file {\b SceneNode.cpp}.}\par
+}
+{\xe \v getWorldTransform\:SceneNode}
+{\xe \v SceneNode\:getWorldTransform}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+sf::Transform SceneNode::getWorldTransform () const}}
+\par
+{\bkmkstart AAAAAAAADL}
+{\bkmkend AAAAAAAADL}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 77} of file {\b SceneNode.cpp}.}\par
+}
+{\xe \v update\:SceneNode}
+{\xe \v SceneNode\:update}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void SceneNode::update (sf::Time dt)}}
+\par
+{\bkmkstart AAAAAAAADM}
+{\bkmkend AAAAAAAADM}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 32} of file {\b SceneNode.cpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Include/{\b SceneNode.hpp}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Source/{\b SceneNode.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SpriteNode Class Reference\par \pard\plain 
+{\tc\tcl2 \v SpriteNode}
+{\xe \v SpriteNode}
+{\bkmkstart AAAAAAAADN}
+{\bkmkend AAAAAAAADN}
+\par
+{
+{\f2 #include <SpriteNode.hpp>}}\par
+Inheritance diagram for SpriteNode:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_sprite_node.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SpriteNode} (const sf::Texture &texture)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SpriteNode} (const sf::Texture &texture, const sf::IntRect &textureRect)\par
+}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Public Member Functions inherited from {\b SceneNode}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b SceneNode} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b attachChild} ({\b Ptr} child)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b Ptr} {\b detachChild} (const {\b SceneNode} &node)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b update} (sf::Time dt)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Vector2f {\b getWorldPosition} () const\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+sf::Transform {\b getWorldTransform} () const\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Additional Inherited Members\par
+\pard\plain 
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid 
+Public Types inherited from {\b SceneNode}\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+typedef std::unique_ptr< {\b SceneNode} > {\b Ptr}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definition at line {\b 7} of file {\b SpriteNode.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v SpriteNode\:SpriteNode}
+{\xe \v SpriteNode\:SpriteNode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+SpriteNode::SpriteNode (const sf::Texture & texture){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAAADO}
+{\bkmkend AAAAAAAADO}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 7} of file {\b SpriteNode.cpp}.}\par
+}
+{\xe \v SpriteNode\:SpriteNode}
+{\xe \v SpriteNode\:SpriteNode}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+SpriteNode::SpriteNode (const sf::Texture & texture, const sf::IntRect & textureRect)}}
+\par
+{\bkmkstart AAAAAAAADP}
+{\bkmkend AAAAAAAADP}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 12} of file {\b SpriteNode.cpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Include/{\b SpriteNode.hpp}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Source/{\b SpriteNode.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+World Class Reference\par \pard\plain 
+{\tc\tcl2 \v World}
+{\xe \v World}
+{\bkmkstart AAAAAAAADQ}
+{\bkmkend AAAAAAAADQ}
+\par
+{
+{\f2 #include <World.hpp>}}\par
+Inheritance diagram for World:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_world.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Public Member Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b World} (sf::RenderWindow &window)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b update} (sf::Time dt)\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b draw} ()\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b handlePlayerInput} (sf::Keyboard::Key key, bool isPressed)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {
+Definition at line {\b 23} of file {\b World.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Constructor & Destructor Documentation\par
+\pard\plain 
+{\xe \v World\:World}
+{\xe \v World\:World}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+World::World (sf::RenderWindow & window){\f2 [explicit]}}}
+\par
+{\bkmkstart AAAAAAAADR}
+{\bkmkend AAAAAAAADR}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 7} of file {\b World.cpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Member Function Documentation\par
+\pard\plain 
+{\xe \v draw\:World}
+{\xe \v World\:draw}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void World::draw ()}}
+\par
+{\bkmkstart AAAAAAAADS}
+{\bkmkend AAAAAAAADS}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 64} of file {\b World.cpp}.}\par
+}
+{\xe \v handlePlayerInput\:World}
+{\xe \v World\:handlePlayerInput}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void World::handlePlayerInput (sf::Keyboard::Key key, bool isPressed)}}
+\par
+{\bkmkstart AAAAAAAADT}
+{\bkmkend AAAAAAAADT}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 70} of file {\b World.cpp}.}\par
+}
+{\xe \v update\:World}
+{\xe \v World\:update}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void World::update (sf::Time dt)}}
+\par
+{\bkmkstart AAAAAAAADU}
+{\bkmkend AAAAAAAADU}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 29} of file {\b World.cpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+The documentation for this class was generated from the following files:{\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Include/{\b World.hpp}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Source/{\b Game.cpp}\par
+\pard\plain \s121\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+SFMLFirstProject64/Source/{\b World.cpp}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+File Documentation{\tc \v File Documentation}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject/Source/game.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject/Source/game.cpp}
+{\xe \v SFMLFirstProject/Source/game.cpp}
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <SFML\\Graphics.hpp>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v main\:game.cpp}
+{\xe \v game.cpp\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main ()}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 3} of file {\b game.cpp}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+game.cpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject/Source/game.cpp}
+{\xe \v SFMLFirstProject/Source/game.cpp}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #include <SFML\\Graphics.hpp>}\par
+00002 \par
+00003 {\cf18 int} main()\par
+00004 \{\par
+00005     sf::RenderWindow window(sf::VideoMode(200, 200), {\cf22 "SFML works!"});\par
+00006     sf::CircleShape shape(100.f);\par
+00007     shape.setFillColor(sf::Color::Green);\par
+00008 \par
+00009     {\cf19 while} (window.isOpen())\par
+00010     \{\par
+00011         sf::Event event;\par
+00012         {\cf19 while} (window.pollEvent(event))\par
+00013         \{\par
+00014             {\cf19 if} (event.type == sf::Event::Closed)\par
+00015                 window.close();\par
+00016         \}\par
+00017 \par
+00018         window.clear();\par
+00019         window.draw(shape);\par
+00020         window.display();\par
+00021     \}\par
+00022 \par
+00023     {\cf19 return} 0;\par
+00024 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Source/Game.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Game.cpp}
+{\xe \v SFMLFirstProject64/Source/Game.cpp}
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <Game.hpp>}\par
+{\f2 #include <SFML/Window/Event.hpp>}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Game.cpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Game.cpp}
+{\xe \v SFMLFirstProject64/Source/Game.cpp}
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #include <Game.hpp>}\par
+00002 {\cf21 #include <SFML/Window/Event.hpp>}\par
+00003 \par
+00004 \par
+00005 \par
+00006 {\cf17 const} {\cf18 float} World::PlayerSpeed = 100.f;\par
+00007 {\cf17 const} sf::Time Game::TimePerFrame = sf::seconds(1.f / 60.f);\par
+00008 \par
+00009 Game::Game()\par
+00010     : mWindow(sf::VideoMode(1200, 800), {\cf22 "World"}, sf::Style::Close)\par
+00011     {\cf20 //, landscape()}\par
+00012     {\cf20 //, airplane()}\par
+00013     {\cf20 //, textures()}\par
+00014     {\cf20 //, mTexture()}\par
+00015     {\cf20 //, mPlayer()}\par
+00016     , mWorld(mWindow)\par
+00017     , mTextures()\par
+00018     , mSceneGraph()\par
+00019     , mSceneLayers()\par
+00020     , mPlayerAircraft(nullptr)\par
+00021 \par
+00022 \par
+00023     , mFont()\par
+00024     , mStatisticsText()\par
+00025     , mStatisticsUpdateTime()\par
+00026     , mStatisticsNumFrames(0)\par
+00027 \par
+00028 \par
+00029     {\cf20 //view Defining}\par
+00030     , mView(mWindow.getDefaultView())\par
+00031     , mWorldBounds(0.f, 0.f, mView.getSize().x, 4000.f)\par
+00032     , mSpawnPosition(mView.getSize().x / 2.f, mWorldBounds.height - mView.getSize().y / 2.f)\par
+00033     , mScrollSpeed(-50.f)\par
+00034 \{\par
+00036     {\cf20 //mView.setCenter(mSpawnPosition);}\par
+00037 \par
+00038     {\cf20 //loadTextures();}\par
+00039     {\cf20 //buildScene();}\par
+00040 \par
+00041     mFonts.load(FontID::sansation, {\cf22 "Media/Sansation.ttf"});\par
+00042 \par
+00043     mStatisticsText.setFont(mFonts.get(FontID::sansation));\par
+00044     mStatisticsText.setFont(mFont);\par
+00045     mStatisticsText.setPosition(5.f, 5.f);\par
+00046     mStatisticsText.setCharacterSize(10);\par
+00047 \par
+00048     {\cf20 //mWindow.setFramerateLimit(20);}\par
+00049 \par
+00050     {\cf20 //mWindow.setVerticalSyncEnabled(true);}\par
+00051 \par
+00052     {\cf20 //try}\par
+00053     {\cf20 //\{}\par
+00054     {\cf20 //  textures.load(TextureID::Landscape, "Media/Textures/Desert.png");}\par
+00055     {\cf20 //  textures.load(TextureID::Airplane, "Media/Textures/Eagle.png");}\par
+00056     {\cf20 //  fonts.load(FontID::sansation, "Media/Sansation.ttf");}\par
+00057     {\cf20 //\}}\par
+00058     {\cf20 //catch (std::runtime_error& e)}\par
+00059     {\cf20 //\{}\par
+00060     {\cf20 //  std::cout << "Exception: " << e.what() << std::endl;}\par
+00061     {\cf20 //\}}\par
+00063 \par
+00064     {\cf20 //  // Prepare the tiled background}\par
+00065     {\cf20 //sf::Texture& texture = textures.get(TextureID::Landscape);}\par
+00066     {\cf20 //texture.setRepeated(true);}\par
+00067     {\cf20 //landscape.setTexture(texture);}\par
+00068     {\cf20 //landscape.setTextureRect(sf::IntRect(mWorldBounds));}\par
+00069 \par
+00070     {\cf20 //airplane.setTexture(textures.get(TextureID::Airplane));}\par
+00071     {\cf20 //airplane.setPosition(200.f, 200.f);}\par
+00072 \par
+00073     {\cf20 //mStatisticsText.setFont(mFont);}\par
+00074     {\cf20 //mStatisticsText.setPosition(5.f, 5.f);}\par
+00075     {\cf20 //mStatisticsText.setCharacterSize(10);}\par
+00076     {\cf20 //mStatisticsText.setFillColor(sf::Color::Black);}\par
+00077 \par
+00078 \par
+00080     {\cf20 //sf::Texture& texture1 = textures.get(TextureID::Landscape);}\par
+00081     {\cf20 //landscape.setTexture(texture1);}\par
+00082 \par
+00083     {\cf20 //sf::Texture& texture2 = textures.get(TextureID::Airplane);}\par
+00084     {\cf20 //airplane.setTexture(texture2);}\par
+00085     {\cf20 //airplane.setPosition(200.f, 200.f);}\par
+00086 \par
+00087     {\cf20 //mStatisticsText.setFont(fonts.get(FontID::sansation));}\par
+00088     {\cf20 //mStatisticsText.setPosition(5.f, 5.f);}\par
+00089     {\cf20 //mStatisticsText.setCharacterSize(10);}\par
+00090 \par
+00091 \par
+00092     {\cf20 //mBackgroundTexture = textures.get(TextureID::Landscape);}\par
+00093     {\cf20 //mBackgroundTexture.setRepeated(true);}\par
+00094     {\cf20 //landscape.setTexture(mBackgroundTexture);}\par
+00095     {\cf20 //landscape.setTextureRect(sf::IntRect(0, 0, 1200, 800));}\par
+00096 \par
+00097     {\cf20 //airplane.setTexture(textures.get(TextureID::Airplane));}\par
+00098     {\cf20 //airplane.setPosition(100.f, 100.f);}\par
+00099     \par
+00100 \par
+00101     {\cf20 //mFont.loadFromFile("Media/Sansation.ttf");}\par
+00102     {\cf20 //mStatisticsText.setFont(mFont);}\par
+00103     {\cf20 //mStatisticsText.setFont(fonts.get(FontID::sansation));}\par
+00104     {\cf20 //mStatisticsText.setPosition(5.f, 5.f);}\par
+00105     {\cf20 //mStatisticsText.setCharacterSize(30);}\par
+00106 \}\par
+00107 {\cf20 //}\par
+00108 {\cf20 //void Game::loadTextures()}\par
+00109 {\cf20 //\{}\par
+00110 {\cf20 //  mTextures.load(TextureID::Eagle, "Media/Textures/Eagle.png");}\par
+00111 {\cf20 //  mTextures.load(TextureID::Raptor, "Media/Textures/Raptor.png");}\par
+00112 {\cf20 //  mTextures.load(TextureID::Desert, "Media/Textures/Desert.png");}\par
+00113 {\cf20 //  mFonts.load(FontID::sansation, "Media/Sansation.ttf");}\par
+00114 {\cf20 //\}}\par
+00115 {\cf20 //void Game::buildScene()}\par
+00116 {\cf20 //\{}\par
+00117 {\cf20 //  // Initialize the different layers}\par
+00118 {\cf20 //  for (std::size_t i = 0; i < LayerCount; ++i)}\par
+00119 {\cf20 //  \{}\par
+00120 {\cf20 //      SceneNode::Ptr layer(new SceneNode());}\par
+00121 {\cf20 //      mSceneLayers[i] = layer.get();}\par
+00122 {\cf20 //}\par
+00123 {\cf20 //      mSceneGraph.attachChild(std::move(layer));}\par
+00124 {\cf20 //  \}}\par
+00125 {\cf20 //}\par
+00126 {\cf20 //  // Prepare the tiled background}\par
+00127 {\cf20 //  sf::Texture& texture = mTextures.get(TextureID::Desert);}\par
+00128 {\cf20 //  sf::IntRect textureRect(mWorldBounds);}\par
+00129 {\cf20 //  texture.setRepeated(true);}\par
+00130 {\cf20 //}\par
+00131 {\cf20 //  // Add the background sprite to the scene}\par
+00132 {\cf20 //  std::unique_ptr<SpriteNode> backgroundSprite(new SpriteNode(texture, textureRect));}\par
+00133 {\cf20 //  backgroundSprite->setPosition(mWorldBounds.left, mWorldBounds.top);}\par
+00134 {\cf20 //  mSceneLayers[Background]->attachChild(std::move(backgroundSprite));}\par
+00135 {\cf20 //}\par
+00136 {\cf20 //  // Add player's aircraft}\par
+00137 {\cf20 //  std::unique_ptr<Aircraft> leader(new Aircraft(Aircraft::Type::Eagle, mTextures));}\par
+00138 {\cf20 //  mPlayerAircraft = leader.get();}\par
+00139 {\cf20 //  mPlayerAircraft->setPosition(mSpawnPosition);}\par
+00140 {\cf20 //  mPlayerAircraft->setVelocity(40.f, mScrollSpeed);}\par
+00141 {\cf20 //  mSceneLayers[Air]->attachChild(std::move(leader));}\par
+00142 {\cf20 //}\par
+00143 {\cf20 //  // Add two escorting aircrafts, placed relatively to the main plane}\par
+00144 {\cf20 //  std::unique_ptr<Aircraft> leftEscort(new Aircraft(Aircraft::Type::Raptor, mTextures));}\par
+00145 {\cf20 //  leftEscort->setPosition(-80.f, 50.f);}\par
+00146 {\cf20 //  mPlayerAircraft->attachChild(std::move(leftEscort));}\par
+00147 {\cf20 //}\par
+00148 {\cf20 //  std::unique_ptr<Aircraft> rightEscort(new Aircraft(Aircraft::Type::Raptor, mTextures));}\par
+00149 {\cf20 //  rightEscort->setPosition(80.f, 50.f);}\par
+00150 {\cf20 //  mPlayerAircraft->attachChild(std::move(rightEscort));}\par
+00151 {\cf20 //\}}\par
+00152 \par
+00153 {\cf18 void} Game::run()\par
+00154 \{\par
+00155     sf::Clock clock;\par
+00156     sf::Time timeSinceLastUpdate = sf::Time::Zero;\par
+00157     {\cf19 while} (mWindow.isOpen())\par
+00158     \{\par
+00159         sf::Time elapsedTime = clock.restart();\par
+00160         timeSinceLastUpdate += elapsedTime;\par
+00161         {\cf19 while} (timeSinceLastUpdate > TimePerFrame)\par
+00162         \{\par
+00163             timeSinceLastUpdate -= TimePerFrame;\par
+00164 \par
+00165             processEvents();\par
+00166             update(TimePerFrame);\par
+00167         \}\par
+00168 \par
+00169         updateStatistics(elapsedTime);\par
+00170         render();\par
+00171     \}\par
+00172 \}\par
+00173 \par
+00174 {\cf18 void} Game::processEvents()\par
+00175 \{\par
+00176     sf::Event event;\par
+00177     {\cf19 while} (mWindow.pollEvent(event))\par
+00178     \{\par
+00179         {\cf20 /*switch (event.type)}\par
+00180 {\cf20         \{}\par
+00181 {\cf20         case sf::Event::Closed:}\par
+00182 {\cf20             mWindow.close();}\par
+00183 {\cf20             break;}\par
+00184 {\cf20         \}*/}\par
+00185 \par
+00186         {\cf20 //switch (event.type)}\par
+00187         {\cf20 //\{}\par
+00188         {\cf20 //case sf::Event::KeyPressed:}\par
+00189         {\cf20 //  handlePlayerInput(event.key.code, true);}\par
+00190         {\cf20 //  break;}\par
+00191 \par
+00192         {\cf20 //case sf::Event::KeyReleased:}\par
+00193         {\cf20 //  handlePlayerInput(event.key.code, false);}\par
+00194         {\cf20 //  break;}\par
+00195 \par
+00196         {\cf20 //case sf::Event::Closed:}\par
+00197         {\cf20 //  mWindow.close();}\par
+00198         {\cf20 //  break;}\par
+00199         {\cf20 //\}}\par
+00200 \par
+00201         {\cf19 switch} (event.type)\par
+00202         \{\par
+00203         {\cf19 case} sf::Event::KeyPressed:\par
+00204             mWorld.handlePlayerInput(event.key.code, {\cf17 true});\par
+00205             {\cf19 break};\par
+00206 \par
+00207         {\cf19 case} sf::Event::KeyReleased:\par
+00208             mWorld.handlePlayerInput(event.key.code, {\cf17 false});\par
+00209             {\cf19 break};\par
+00210 \par
+00211         {\cf19 case} sf::Event::Closed:\par
+00212             mWindow.close();\par
+00213             {\cf19 break};\par
+00214 \par
+00215         {\cf19 default}:\par
+00216             {\cf19 break};\par
+00217         \}\par
+00218     \}\par
+00219 \}\par
+00220 \par
+00221 {\cf18 void} Game::update(sf::Time elapsedTime)\par
+00222 \{\par
+00224     {\cf20 //mView.move(0.f, mScrollSpeed * elapsedTime.asSeconds());}\par
+00225 \par
+00226     {\cf20 //sf::Vector2f position = player2.getPosition();}\par
+00227     {\cf20 //sf::Vector2f velocity = player2.getVelocity();}\par
+00228 \par
+00234 \par
+00235     {\cf20 //player2.setVelocity(0.f, -30.f);}\par
+00237     {\cf20 //player2.update(elapsedTime);}\par
+00238 \par
+00239     {\cf20 //sf::Vector2f movement(0.f, 0.f);}\par
+00240 \par
+00241 \par
+00251 \par
+00252     {\cf20 //if (sf::Keyboard::isKeyPressed(sf::Keyboard::W) || sf::Keyboard::isKeyPressed(sf::Keyboard::Up))}\par
+00253     {\cf20 //  movement.y -= PlayerSpeed;}\par
+00254     {\cf20 //if (sf::Keyboard::isKeyPressed(sf::Keyboard::S) || sf::Keyboard::isKeyPressed(sf::Keyboard::Down))}\par
+00255     {\cf20 //  movement.y += PlayerSpeed;}\par
+00256     {\cf20 //if (sf::Keyboard::isKeyPressed(sf::Keyboard::A) || sf::Keyboard::isKeyPressed(sf::Keyboard::Left))}\par
+00257     {\cf20 //  movement.x -= PlayerSpeed;}\par
+00258     {\cf20 //if (sf::Keyboard::isKeyPressed(sf::Keyboard::D) || sf::Keyboard::isKeyPressed(sf::Keyboard::Right))}\par
+00259     {\cf20 //  movement.x += PlayerSpeed;}\par
+00260 \par
+00261     {\cf20 //airplane.move(movement * elapsedTime.asSeconds());}\par
+00262 \par
+00263     {\cf20 // Scroll the world}\par
+00264     {\cf20 //mView.move(0.f, mScrollSpeed * dt.asSeconds());}\par
+00265 \par
+00267     {\cf20 //sf::Vector2f position = mPlayerAircraft->getPosition();}\par
+00268     {\cf20 //sf::Vector2f velocity = mPlayerAircraft->getVelocity();}\par
+00269 \par
+00270 \par
+00272     {\cf20 //if (position.x <= mWorldBounds.left + 150.f}\par
+00273     {\cf20 //  || position.x >= mWorldBounds.left + mWorldBounds.width - 150.f)}\par
+00274     {\cf20 //\{}\par
+00275     {\cf20 //  velocity.x = -velocity.x;}\par
+00276     {\cf20 //  mPlayerAircraft->setVelocity(velocity);}\par
+00277     {\cf20 //\}}\par
+00278 \par
+00280     {\cf20 //mSceneGraph.update(dt);}\par
+00281 \par
+00282     {\cf20 // Update other world elements}\par
+00283     mWorld.update(elapsedTime);\par
+00284 \par
+00285     \par
+00286 \}\par
+00287 \par
+00288 {\cf18 void} Game::render()\par
+00289 \{\par
+00291     {\cf20 //mWindow.clear();}\par
+00292 \par
+00293 \par
+00294     {\cf20 //mWindow.setView(mView);}\par
+00295     {\cf20 //mWindow.draw(landscape);}\par
+00296 \par
+00297     {\cf20 //mWindow.setView(mWindow.getDefaultView());}\par
+00298     {\cf20 //mWindow.draw(airplane);}\par
+00299     {\cf20 //mWindow.draw(player.getSprite());}\par
+00300     {\cf20 //mWindow.draw(player2);}\par
+00301     {\cf20 //mWindow.draw(mStatisticsText);}\par
+00302 \par
+00303     {\cf20 //mWindow.display();}\par
+00304 \par
+00305     {\cf20 //mWindow.clear();}\par
+00306     {\cf20 //mWindow.setView(mView);}\par
+00307 \par
+00309     {\cf20 //mWindow.draw(mSceneGraph);}\par
+00310     {\cf20 //mWindow.setView(mWindow.getDefaultView());}\par
+00311 \par
+00312     {\cf20 //mWindow.draw(mStatisticsText);}\par
+00313     {\cf20 //mWindow.display();}\par
+00314 \par
+00315     mWindow.clear();\par
+00316     mWorld.draw();\par
+00317 \par
+00318 \par
+00319     mWindow.setView(mWindow.getDefaultView());\par
+00320     mWindow.draw(mStatisticsText);\par
+00321     mWindow.display();\par
+00322 \par
+00323 \}\par
+00324 \par
+00325 {\cf18 void} Game::updateStatistics(sf::Time elapsedTime)\par
+00326 \{\par
+00327     mStatisticsUpdateTime += elapsedTime;\par
+00328     mStatisticsNumFrames += 1;\par
+00329 \par
+00330     {\cf20 //sf::Vector2f position = player2.getPosition();}\par
+00331     {\cf20 //sf::Vector2f velocity = player2.getVelocity();}\par
+00332 \par
+00333     {\cf19 if} (mStatisticsUpdateTime >= sf::seconds(1.0f))\par
+00334     \{\par
+00335         {\cf20 /*mStatisticsText.setString(}\par
+00336 {\cf20             "Frames / Second = " + std::to_string(mStatisticsNumFrames) + "\\n" +}\par
+00337 {\cf20             "Time / Update = " + std::to_string(mStatisticsUpdateTime.asMicroseconds() / mStatisticsNumFrames) + "us");*/}\par
+00338         mStatisticsText.setString(\par
+00339             {\cf22 "Frames / Second = "} + std::to_string(mStatisticsNumFrames) + {\cf22 "\\n"} +\par
+00340             {\cf22 "Time / Update = "} + std::to_string(mStatisticsUpdateTime.asMicroseconds() / mStatisticsNumFrames) + {\cf22 "us"}\par
+00341             {\cf20 //+ "\\n" +}\par
+00342             {\cf20 //"Position = ( " + std::to_string(position.x) + " , " + std::to_string(position.y) + " )" + "\\n" +}\par
+00343             {\cf20 //"Velocity = ( " + std::to_string(velocity.x) + " , " + std::to_string(velocity.y) + " )" + "\\n"}\par
+00344         );\par
+00345 \par
+00346 \par
+00347         mStatisticsUpdateTime -= sf::seconds(1.0f);\par
+00348         mStatisticsNumFrames = 0;\par
+00349     \}\par
+00350 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/Aircraft.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/Aircraft.hpp}
+{\xe \v SFMLFirstProject64/Include/Aircraft.hpp}
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <Entity.hpp>}\par
+{\f2 #include <ResourceIdentifiers.hpp>}\par
+{\f2 #include <SFML/Graphics/Sprite.hpp>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Aircraft}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Aircraft.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/Aircraft.hpp}
+{\xe \v SFMLFirstProject64/Include/Aircraft.hpp}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma region step 5}\par
+00002 {\cf21 #pragma once}\par
+00003 {\cf21 #include <Entity.hpp>}\par
+00004 {\cf21 #include <ResourceIdentifiers.hpp>}\par
+00005 {\cf21 #include <SFML/Graphics/Sprite.hpp>}\par
+00006 \par
+00007 {\cf17 class }Aircraft : {\cf17 public} Entity\par
+00008 \{\par
+00009 {\cf17 public}:\par
+00010     {\cf17 enum class} Type\par
+00011     \{\par
+00012         Eagle,\par
+00013         Raptor,\par
+00014     \};\par
+00015 \par
+00016     Aircraft(Type type, {\cf17 const} TextureHolder& textures);\par
+00017 \par
+00018 {\cf17 private}:\par
+00019     {\cf17 virtual} {\cf18 void}        drawCurrent(sf::RenderTarget& target, sf::RenderStates states) {\cf17 const};\par
+00020     Type                mType;\par
+00021     sf::Sprite          mSprite;\par
+00022 \};\par
+00023 \par
+00024 {\cf21 #pragma endregion}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/Entity.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/Entity.hpp}
+{\xe \v SFMLFirstProject64/Include/Entity.hpp}
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <SceneNode.hpp>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Entity}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Entity.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/Entity.hpp}
+{\xe \v SFMLFirstProject64/Include/Entity.hpp}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma once}\par
+00002 {\cf21 #include <SceneNode.hpp>}\par
+00003 \par
+00004 {\cf20 //class Entity : public sf::Drawable, public sf::Transformable}\par
+00005 {\cf17 class }Entity : {\cf17 public} SceneNode\par
+00006 \{\par
+00007 {\cf17 public}:\par
+00008     {\cf18 void}                setVelocity(sf::Vector2f velocity);\par
+00009     {\cf18 void}                setVelocity({\cf18 float} vx, {\cf18 float} vy);\par
+00010     sf::Vector2f        getVelocity() {\cf17 const};\par
+00011 \par
+00012     {\cf17 virtual} {\cf18 void}        update(sf::Time dt);\par
+00013 \par
+00014 {\cf17 public}:\par
+00015     sf::Vector2f        mVelocity;\par
+00016 \};\par
+00017 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/Game.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/Game.hpp}
+{\xe \v SFMLFirstProject64/Include/Game.hpp}
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <World.hpp>}\par
+{\f2 #include <SFML/Graphics.hpp>}\par
+{\f2 #include "ResourceHolder.hpp"}\par
+{\f2 #include <SceneNode.hpp>}\par
+{\f2 #include <SpriteNode.hpp>}\par
+{\f2 #include <Aircraft.hpp>}\par
+{\f2 #include <array>}\par
+{\f2 #include <iostream>}\par
+{\f2 #include "ResourceIdentifiers.hpp"}\par
+{\f2 #include "Player.hpp"}\par
+{\f2 #include "Player2.hpp"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b Game}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Game.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/Game.hpp}
+{\xe \v SFMLFirstProject64/Include/Game.hpp}
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #ifndef BOOK_GAME_HPP}\par
+00002 {\cf21 #define BOOK_GAME_HPP}\par
+00003 \par
+00004 {\cf21 #include <World.hpp>}\par
+00005 {\cf21 #include <SFML/Graphics.hpp>}\par
+00006 {\cf21 #include "ResourceHolder.hpp"}\par
+00007 {\cf21 #include <SceneNode.hpp>}\par
+00008 {\cf21 #include <SpriteNode.hpp>}\par
+00009 {\cf21 #include <Aircraft.hpp>}\par
+00010 {\cf21 #include <array>}\par
+00011 {\cf21 #include <iostream>}\par
+00012 \par
+00013 {\cf21 #include "ResourceIdentifiers.hpp"}\par
+00014 {\cf21 #include "Player.hpp"}\par
+00015 {\cf21 #include "Player2.hpp"}\par
+00016 \par
+00017 \par
+00018 \par
+00019 {\cf20 //namespace Textures}\par
+00020 {\cf20 //\{}\par
+00021 {\cf20 //  enum ID}\par
+00022 {\cf20 //  \{}\par
+00023 {\cf20 //      Landscape,}\par
+00024 {\cf20 //      Airplane,}\par
+00025 {\cf20 //  \};}\par
+00026 {\cf20 //\}}\par
+00027 {\cf20 //}\par
+00028 {\cf20 //}\par
+00029 {\cf20 //enum class TextureID}\par
+00030 {\cf20 //\{}\par
+00031 {\cf20 //  Landscape,}\par
+00032 {\cf20 //  Airplane,}\par
+00033 {\cf20 //\};}\par
+00034 {\cf20 //}\par
+00035 {\cf20 //namespace Fonts}\par
+00036 {\cf20 //\{}\par
+00037 {\cf20 //  enum ID}\par
+00038 {\cf20 //  \{}\par
+00039 {\cf20 //      sansation,}\par
+00040 {\cf20 //      font2,}\par
+00041 {\cf20 //  \};}\par
+00042 {\cf20 //\}}\par
+00043 {\cf20 //}\par
+00044 {\cf20 //enum class FontID}\par
+00045 {\cf20 //\{}\par
+00046 {\cf20 //  sansation,}\par
+00047 {\cf20 //  font2,}\par
+00048 {\cf20 //\};}\par
+00049 \par
+00050 {\cf17 class }Game : {\cf17 private} sf::NonCopyable\par
+00051 \{\par
+00052     {\cf17 public}:\par
+00053                                 Game();\par
+00054         {\cf18 void}                    run();\par
+00055         \par
+00056 \par
+00057     {\cf17 private}:\par
+00058         {\cf18 void}                    processEvents();\par
+00059         {\cf18 void}                    update(sf::Time elapsedTime);\par
+00060         {\cf18 void}                    render();\par
+00061 \par
+00062         {\cf18 void}                    updateStatistics(sf::Time elapsedTime); \par
+00063 {\cf20 //      void                    handlePlayerInput(sf::Keyboard::Key key, bool isPressed);}\par
+00064         \par
+00065 \par
+00066     {\cf17 private}:\par
+00067     \par
+00068         {\cf17 static} {\cf17 const} sf::Time   TimePerFrame;\par
+00069 \par
+00070         sf::RenderWindow        mWindow;\par
+00071         World                  mWorld;\par
+00072 \par
+00073 \par
+00074         sf::Font                mFont;\par
+00075         sf::Text                mStatisticsText;\par
+00076         sf::Time                mStatisticsUpdateTime;\par
+00077 \par
+00078 \par
+00079         sf::View                            mView;\par
+00080         sf::FloatRect                       mWorldBounds;\par
+00081         sf::Vector2f                        mSpawnPosition;\par
+00082         {\cf18 float}                               mScrollSpeed;\par
+00083 \par
+00084         std::size_t             mStatisticsNumFrames;\par
+00085 \par
+00086 \par
+00087         {\cf20 /*sf::Texture               mTexture;}\par
+00088 {\cf20         sf::Sprite              mPlayer;*/}\par
+00089         {\cf20 //TextureHolder          textures;}\par
+00090         {\cf20 //ResourceHolder<sf::Texture, TextureID> textures;}\par
+00091         {\cf20 //ResourceHolder<sf::Font, FontID> fonts;}\par
+00092         {\cf20 //TextureHolder textures;}\par
+00093         {\cf20 //FontHolder fonts;}\par
+00094 \par
+00095         {\cf20 //class Player player;}\par
+00096         {\cf20 //class Player2 player2;}\par
+00097 \par
+00098 \par
+00099 \par
+00100         {\cf20 //sf::Sprite                airplane;}\par
+00101         {\cf20 //sf::Sprite                landscape;}\par
+00102         {\cf20 //sf::Texture             mBackgroundTexture;}\par
+00103 \par
+00104         {\cf20 //New Layer}\par
+00105 \par
+00106         {\cf17 enum} Layer\par
+00107         \{\par
+00108             Background,\par
+00109             Air,\par
+00110             LayerCount\par
+00111         \};\par
+00112 \par
+00113         TextureHolder                      mTextures;\par
+00114         FontHolder                            mFonts;\par
+00115         SceneNode                          mSceneGraph;\par
+00116         std::array<SceneNode*, LayerCount>  mSceneLayers;\par
+00117         Aircraft* mPlayerAircraft;\par
+00118 \par
+00119 \par
+00120         {\cf20 //bool                  mIsMovingUp;}\par
+00121         {\cf20 //bool                  mIsMovingDown;}\par
+00122         {\cf20 //bool                  mIsMovingRight;}\par
+00123         {\cf20 //bool                  mIsMovingLeft;}\par
+00124 \par
+00125         {\cf20 //void                              loadTextures();}\par
+00126         {\cf20 //void                              buildScene();}\par
+00127 \par
+00128 \par
+00129 \};\par
+00130 \par
+00131 \par
+00132 {\cf21 #endif }\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/Player.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/Player.hpp}
+{\xe \v SFMLFirstProject64/Include/Player.hpp}
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Player.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/Player.hpp}
+{\xe \v SFMLFirstProject64/Include/Player.hpp}
+{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma once}\par
+00002 {\cf21 #pragma region step 1}\par
+00003 \par
+00004 {\cf21 #pragma once}\par
+00005 {\cf21 #include <SFML/Graphics/Sprite.hpp>}\par
+00006 {\cf21 #include <SFML\\Graphics.hpp>}\par
+00007 {\cf21 #include <SFML/Graphics/Transformable.hpp>}\par
+00008 {\cf21 #include <SFML/Graphics/Drawable.hpp>}\par
+00009 {\cf21 #include "ResourceIdentifiers.hpp"}\par
+00010 {\cf21 #include "ResourceHolder.hpp"}\par
+00011 {\cf21 #include "Entity.hpp"}\par
+00012 \par
+00013 \par
+00014 {\cf17 class }Player : {\cf17 public} Entity\par
+00015 \{\par
+00016 \par
+00017 {\cf17 public}:\par
+00018     {\cf17 enum class} Type\par
+00019     \{\par
+00020         Eagle,\par
+00021         Raptor,\par
+00022     \};\par
+00023 \par
+00024 \par
+00025 {\cf17 public}:\par
+00026     Player();\par
+00027 \par
+00028 \par
+00029     sf::Sprite& getSprite();\par
+00030 \par
+00031     {\cf17 virtual} {\cf18 void} draw(sf::RenderTarget& target, sf::RenderStates states) {\cf17 const};\par
+00032     {\cf18 void} update(sf::Time);\par
+00033 \par
+00034 {\cf17 private}:\par
+00035 \par
+00036     sf::Sprite mSprite;\par
+00037     sf::Texture texture2;\par
+00038     TextureHolder textures;\par
+00039 \};\par
+00040 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/Player2.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/Player2.hpp}
+{\xe \v SFMLFirstProject64/Include/Player2.hpp}
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Player2.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/Player2.hpp}
+{\xe \v SFMLFirstProject64/Include/Player2.hpp}
+{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma once}\par
+00002 {\cf21 #pragma region step 3}\par
+00003 \par
+00004 {\cf20 //B) The other way to do this would be to have your player class inheirit }\par
+00005 {\cf20 //from sf::Drawable and then override the virtual draw() function to do }\par
+00006 {\cf20 //the drawing in the player class. This is the best way to do this but }\par
+00007 {\cf20 //takes more knowledge on inheiritence, though it will allows you to make }\par
+00008 {\cf20 //a draw call like this Window.draw(player); in your main game loop.}\par
+00009 \par
+00010 \par
+00011 {\cf21 #pragma once}\par
+00012 \par
+00013 {\cf21 #include <SFML/Graphics/Sprite.hpp>}\par
+00014 {\cf21 #include <SFML\\Graphics.hpp>}\par
+00015 {\cf21 #include <SFML/Graphics/Transformable.hpp>}\par
+00016 {\cf21 #include <SFML/Graphics/Drawable.hpp>}\par
+00017 \par
+00018 {\cf21 #include "ResourceIdentifiers.hpp"}\par
+00019 {\cf21 #include "ResourceHolder.hpp"}\par
+00020 {\cf21 #include "Entity.hpp"}\par
+00021 \par
+00022 {\cf20 //class Player2 : public sf::Drawable, public sf::Transformable}\par
+00023 \par
+00024 {\cf17 class }Player2 : {\cf17 public} Entity\par
+00025 \{\par
+00026 \par
+00027 {\cf17 public}:\par
+00028     {\cf17 enum class} Type\par
+00029     \{\par
+00030         Eagle,\par
+00031         Raptor,\par
+00032     \};\par
+00033 \par
+00034 \par
+00035 {\cf17 public}:\par
+00036     Player2();\par
+00037 \par
+00038     sf::Sprite& getSprite();\par
+00039 \par
+00040     {\cf20 //The first parameter specifies, where the drawable object is drawn to. Mostly, this will be a sf::RenderWindow. The second parameter contains additional information for the rendering process, such as blend mode (how pixel of the object are blened, transform (how the object is positioned/rotated/scaled), the used texture (what image is mapped to the object), or shader (what custom effects applied to the object). }\par
+00041     {\cf20 //SFML's high-level classes Sprite, Text, and Shape are all derived fromTransformable and Drawable.}\par
+00042 \par
+00043     {\cf17 virtual} {\cf18 void} draw(sf::RenderTarget& target, sf::RenderStates states) {\cf17 const};\par
+00044     {\cf18 void} update(sf::Time);\par
+00045 \par
+00046 \par
+00047 {\cf17 private}:\par
+00048 \par
+00049     sf::Sprite mSprite;\par
+00050     TextureHolder textures;\par
+00051 \};\par
+00052 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/ResourceHolder.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/ResourceHolder.hpp}
+{\xe \v SFMLFirstProject64/Include/ResourceHolder.hpp}
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <map>}\par
+{\f2 #include <string>}\par
+{\f2 #include <memory>}\par
+{\f2 #include <stdexcept>}\par
+{\f2 #include <cassert>}\par
+{\f2 #include <SFML\\Graphics.hpp>}\par
+{\f2 #include "ResourceHolder.inl"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b ResourceHolder< Resource, Identifier >}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ResourceHolder.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/ResourceHolder.hpp}
+{\xe \v SFMLFirstProject64/Include/ResourceHolder.hpp}
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #ifndef BOOK_RESOURCEHOLDER_HPP}\par
+00002 {\cf21 #define BOOK_RESOURCEHOLDER_HPP}\par
+00003 \par
+00004 {\cf21 #pragma region Step1}\par
+00005 \par
+00006 {\cf21 #include <map>}\par
+00007 {\cf21 #include <string>}\par
+00008 {\cf21 #include <memory>}\par
+00009 {\cf21 #include <stdexcept>}\par
+00010 {\cf21 #include <cassert>}\par
+00011 {\cf21 #include <SFML\\Graphics.hpp>}\par
+00012 {\cf20 //namespace Textures}\par
+00013 {\cf20 //\{}\par
+00014 {\cf20 //  enum ID}\par
+00015 {\cf20 //  \{}\par
+00016 {\cf20 //      Landscape,}\par
+00017 {\cf20 //      Airplane,}\par
+00018 {\cf20 //  \};}\par
+00019 {\cf20 //\}}\par
+00020 \par
+00021 {\cf20 //class TextureHolder}\par
+00022 {\cf17 template} <{\cf17 typename} Resource, {\cf17 typename} Identifier>\par
+00023 {\cf17 class }ResourceHolder\par
+00024 \{\par
+00025 {\cf17 public}:\par
+00026     {\cf20 //void                      load(Textures::ID id, const std::string& filename);}\par
+00027     {\cf18 void}                        load(Identifier {\cf18 id}, {\cf17 const} std::string& filename);\par
+00028 \par
+00029     {\cf17 template} <{\cf17 typename} Parameter>\par
+00030     {\cf18 void}                        load(Identifier {\cf18 id}, {\cf17 const} std::string& filename, {\cf17 const} Parameter& secondParam);\par
+00031 \par
+00032 \par
+00033     {\cf20 //sf::Texture&                  get(Textures::ID id);}\par
+00034     {\cf20 //const sf::Texture&            get(Textures::ID id) const;}\par
+00035     Resource&                   get(Identifier {\cf18 id});\par
+00036     {\cf17 const} Resource&             get(Identifier {\cf18 id}) {\cf17 const};\par
+00037 \par
+00038 {\cf17 private}:\par
+00039     {\cf18 void}                        insertResource(Identifier {\cf18 id}, std::unique_ptr<Resource> resource);\par
+00040 \par
+00041 {\cf17 private}:\par
+00042     {\cf20 //std::map<Textures::ID, std::unique_ptr<sf::Texture>>  mTextureMap;}\par
+00043     std::map<Identifier, std::unique_ptr<Resource>> mResourceMap;\par
+00044 \par
+00045 \};\par
+00046 \par
+00047 {\cf21 #include "ResourceHolder.inl"}\par
+00048 {\cf21 #endif}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/ResourceHolder.inl File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/ResourceHolder.inl}
+{\xe \v SFMLFirstProject64/Include/ResourceHolder.inl}
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ResourceHolder.inl\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/ResourceHolder.inl}
+{\xe \v SFMLFirstProject64/Include/ResourceHolder.inl}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma region step 2}\par
+00002 \par
+00003 {\cf20 //void TextureHolder::load(Textures::ID id, const std::string &filename) \{}\par
+00004 {\cf17 template} <{\cf17 typename} Resource, {\cf17 typename} Identifier>\par
+00005 {\cf18 void} ResourceHolder<Resource, Identifier>::load(Identifier {\cf18 id}, {\cf17 const} std::string& filename)\par
+00006 \{\par
+00007     {\cf20 //std::unique_ptr<sf::Texture> texture(new sf::Texture());}\par
+00008     {\cf20 // Create and load resource}\par
+00009     std::unique_ptr<Resource> resource({\cf17 new} Resource());\par
+00010 \par
+00011     {\cf19 if} (!resource->loadFromFile(filename))\par
+00012         {\cf19 throw} std::runtime_error({\cf22 "ResourceHolder::load - Failed to load "} + filename);\par
+00013     {\cf20 // If loading successful, insert resource to map}\par
+00014     mResourceMap.insert(std::make_pair({\cf18 id}, std::move(resource)));\par
+00015 \}\par
+00016 \par
+00017 \par
+00018 \par
+00019 {\cf20 //sf::Texture& TextureHolder::get(Textures::ID id)}\par
+00020 {\cf17 template} <{\cf17 typename} Resource, {\cf17 typename} Identifier>\par
+00021 Resource& ResourceHolder<Resource, Identifier>::get(Identifier {\cf18 id})\par
+00022 \{\par
+00023     {\cf17 auto} found = mResourceMap.find({\cf18 id});\par
+00024     assert(found != mResourceMap.end());\par
+00025 \par
+00026     {\cf19 return} *found->second;\par
+00027 \}\par
+00028 \par
+00029 \par
+00030 {\cf20 //const sf::Texture& TextureHolder::get(Textures::ID id) const}\par
+00031 {\cf17 template} <{\cf17 typename} Resource, {\cf17 typename} Identifier>\par
+00032 {\cf17 const} Resource& ResourceHolder<Resource, Identifier>::get(Identifier {\cf18 id}){\cf17  const}\par
+00033 {\cf17 }\{\par
+00034     {\cf17 auto} found = mResourceMap.find({\cf18 id});\par
+00035     assert(found != mResourceMap.end());\par
+00036 \par
+00037     {\cf19 return} *found->second;\par
+00038 \}\par
+00039 \par
+00040 {\cf21 #pragma endregion}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/ResourceIdentifiers.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/ResourceIdentifiers.hpp}
+{\xe \v SFMLFirstProject64/Include/ResourceIdentifiers.hpp}
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b sf}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b Textures}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Typedefs\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+using {\b TextureHolder} = {\b ResourceHolder}<sf::Texture, {\b TextureID}>\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+using {\b FontHolder} = {\b ResourceHolder}<sf::Font, {\b FontID}>\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumerations\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b Textures::ID} \{ {\b Textures::Landscape}
+, {\b Textures::Airplane}
+, {\b Textures::Eagle}
+, {\b Textures::Raptor}
+, {\b Textures::Desert}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b TextureID} \{ {\b Landscape}
+, {\b Airplane}
+, {\b Eagle}
+, {\b Raptor}
+, {\b Desert}
+ \}\par
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum class {\b FontID} \{ {\b sansation}
+, {\b font2}
+ \}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Typedef Documentation\par
+\pard\plain 
+{\xe \v FontHolder\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:FontHolder}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+using {\b FontHolder} = {\b ResourceHolder}<sf::Font, {\b FontID}>}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 49} of file {\b ResourceIdentifiers.hpp}.}\par
+}
+{\xe \v TextureHolder\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:TextureHolder}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+using {\b TextureHolder} = {\b ResourceHolder}<sf::Texture, {\b TextureID}>}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 48} of file {\b ResourceIdentifiers.hpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Enumeration Type Documentation\par
+\pard\plain 
+{\xe \v FontID\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:FontID}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b FontID}{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumerator:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v sansation\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:sansation}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid sansation{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+\cell }{\cell }{\row }
+{\xe \v font2\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:font2}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid font2{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+\cell }{\cell }{\row }
+}
+\par
+{
+Definition at line {\b 35} of file {\b ResourceIdentifiers.hpp}.}\par
+}
+{\xe \v TextureID\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:TextureID}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum class {\b TextureID}{\f2 [strong]}}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\par
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Enumerator:\par}
+\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid \trowd \trgaph108\trleft426\tblind426\trbrdrt\brdrs\brdrw10\brdrcf15 \trbrdrl\brdrs\brdrw10\brdrcf15 \trbrdrb\brdrs\brdrw10\brdrcf15 \trbrdrr\brdrs\brdrw10\brdrcf15 \trbrdrh\brdrs\brdrw10\brdrcf15 \trbrdrv\brdrs\brdrw10\brdrcf15 
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx2187
+\clvertalt\clbrdrt\brdrs\brdrw10\brdrcf15 \clbrdrl\brdrs\brdrw10\brdrcf15 \clbrdrb\brdrs\brdrw10\brdrcf15 \clbrdrr \brdrs\brdrw10\brdrcf15 \cltxlrtb \cellx8748
+\pard \widctlpar\intbl\adjustright
+{\xe \v Landscape\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:Landscape}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Landscape{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+\cell }{\cell }{\row }
+{\xe \v Airplane\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:Airplane}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Airplane{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+\cell }{\cell }{\row }
+{\xe \v Eagle\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:Eagle}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Eagle{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+\cell }{\cell }{\row }
+{\xe \v Raptor\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:Raptor}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Raptor{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+\cell }{\cell }{\row }
+{\xe \v Desert\:ResourceIdentifiers.hpp}
+{\xe \v ResourceIdentifiers.hpp\:Desert}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid Desert{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+\cell }{\cell }{\row }
+}
+\par
+{
+Definition at line {\b 26} of file {\b ResourceIdentifiers.hpp}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+ResourceIdentifiers.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/ResourceIdentifiers.hpp}
+{\xe \v SFMLFirstProject64/Include/ResourceIdentifiers.hpp}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma once}\par
+00002 \par
+00003 {\cf17 namespace }sf\par
+00004 \{\par
+00005     {\cf17 class }Texture;\par
+00006 \}\par
+00007 \par
+00008 \par
+00009 {\cf17 namespace }sf\par
+00010 \{\par
+00011     {\cf17 class }Font;\par
+00012 \}\par
+00013 \par
+00014 {\cf17 namespace }Textures\par
+00015 \{\par
+00016     {\cf17 enum} ID\par
+00017     \{\par
+00018         Landscape,\par
+00019         Airplane,\par
+00020         Eagle,\par
+00021         Raptor,\par
+00022         Desert,\par
+00023     \};\par
+00024 \}\par
+00025 \par
+00026 {\cf17 enum class} TextureID\par
+00027 \{\par
+00028     Landscape,\par
+00029     Airplane,\par
+00030     Eagle,\par
+00031     Raptor,\par
+00032     Desert,\par
+00033 \};\par
+00034 \par
+00035 {\cf17 enum class} FontID\par
+00036 \{\par
+00037     sansation,\par
+00038     font2,\par
+00039 \};\par
+00040 \par
+00041 \par
+00042 {\cf17 template} <{\cf17 typename} Resource, {\cf17 typename} Identifier>\par
+00043 {\cf17 class }ResourceHolder;\par
+00044 \par
+00045 \par
+00046 {\cf20 //typedef ResourceHolder<sf::Texture, TextureID> TextureHolder;}\par
+00047 {\cf20 //typedef ResourceHolder<sf::Texture, Textures::ID> TextureHolder;}\par
+00048 {\cf17 using }TextureHolder = ResourceHolder<sf::Texture, TextureID>;\par
+00049 {\cf17 using }FontHolder = ResourceHolder<sf::Font, FontID>;\par
+00050 \par
+00051 {\cf20 //typedef ResourceHolder<sf::Font, FontID> FontHolder;}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/SceneNode.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/SceneNode.hpp}
+{\xe \v SFMLFirstProject64/Include/SceneNode.hpp}
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <SFML/System/NonCopyable.hpp>}\par
+{\f2 #include <SFML/System/Time.hpp>}\par
+{\f2 #include <SFML/Graphics/Transformable.hpp>}\par
+{\f2 #include <SFML/Graphics/Drawable.hpp>}\par
+{\f2 #include <vector>}\par
+{\f2 #include <memory>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b SceneNode}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SceneNode.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/SceneNode.hpp}
+{\xe \v SFMLFirstProject64/Include/SceneNode.hpp}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma once}\par
+00002 {\cf21 #pragma region step 1}\par
+00003 {\cf20 //Remove Play.hpp, Player2.cpp, Player.hpp, Player2.hpp}\par
+00004 \par
+00005 {\cf21 #include <SFML/System/NonCopyable.hpp>}\par
+00006 {\cf21 #include <SFML/System/Time.hpp>}\par
+00007 {\cf21 #include <SFML/Graphics/Transformable.hpp>}\par
+00008 {\cf21 #include <SFML/Graphics/Drawable.hpp>}\par
+00009 \par
+00010 {\cf21 #include <vector>}\par
+00011 {\cf21 #include <memory>}\par
+00012 \par
+00013 \par
+00014 {\cf17 class }SceneNode : {\cf17 public} sf::Transformable, {\cf17 public} sf::Drawable, {\cf17 private} sf::NonCopyable\par
+00015 \{\par
+00016     {\cf17 public}:\par
+00017         {\cf17 typedef} std::unique_ptr<SceneNode> Ptr;\par
+00018 \par
+00019 \par
+00020     {\cf17 public}:\par
+00021                                 SceneNode();\par
+00022 \par
+00023         {\cf18 void}                    attachChild(Ptr child);\par
+00024         Ptr                      detachChild({\cf17 const} SceneNode& node);\par
+00025         \par
+00026         {\cf18 void}                    update(sf::Time dt);\par
+00027 \par
+00028         sf::Vector2f            getWorldPosition() {\cf17 const};\par
+00029         sf::Transform           getWorldTransform() {\cf17 const};\par
+00030 \par
+00031 \par
+00032     {\cf17 private}:\par
+00033         {\cf17 virtual} {\cf18 void}            updateCurrent(sf::Time dt);\par
+00034         {\cf18 void}                    updateChildren(sf::Time dt);\par
+00035 \par
+00036         {\cf17 virtual} {\cf18 void}            draw(sf::RenderTarget& target, sf::RenderStates states) {\cf17 const};\par
+00037         {\cf17 virtual} {\cf18 void}            drawCurrent(sf::RenderTarget& target, sf::RenderStates states) {\cf17 const};\par
+00038         {\cf18 void}                    drawChildren(sf::RenderTarget& target, sf::RenderStates states) {\cf17 const};\par
+00039 \par
+00040 \par
+00041     {\cf17 private}:\par
+00042         std::vector<Ptr>        mChildren;\par
+00043         SceneNode*             mParent;\par
+00044 \};\par
+00045 \par
+00046 {\cf21 #pragma endregion}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/SpriteNode.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/SpriteNode.hpp}
+{\xe \v SFMLFirstProject64/Include/SpriteNode.hpp}
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <SceneNode.hpp>}\par
+{\f2 #include <SFML/Graphics/Sprite.hpp>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b SpriteNode}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SpriteNode.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/SpriteNode.hpp}
+{\xe \v SFMLFirstProject64/Include/SpriteNode.hpp}
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma region step 8}\par
+00002 {\cf21 #pragma once}\par
+00003 \par
+00004 {\cf21 #include <SceneNode.hpp>}\par
+00005 {\cf21 #include <SFML/Graphics/Sprite.hpp>}\par
+00006 \par
+00007 {\cf17 class }SpriteNode : {\cf17 public} SceneNode\par
+00008 \{\par
+00009     {\cf17 public}:\par
+00010         {\cf17 explicit}            SpriteNode({\cf17 const} sf::Texture& texture);\par
+00011                             SpriteNode({\cf17 const} sf::Texture& texture, {\cf17 const} sf::IntRect& textureRect);\par
+00012 \par
+00013     {\cf17 private}:\par
+00014         {\cf17 virtual} {\cf18 void}        drawCurrent(sf::RenderTarget& target, sf::RenderStates states) {\cf17 const};\par
+00015         sf::Sprite          mSprite;\par
+00016 \};\par
+00017 \par
+00018 {\cf21 #pragma endregion}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/StringHelpers.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/StringHelpers.hpp}
+{\xe \v SFMLFirstProject64/Include/StringHelpers.hpp}
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <sstream>}\par
+{\f2 #include <StringHelpers.inl>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename T> std::string {\b toString} (const T &value)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v toString\:StringHelpers.hpp}
+{\xe \v StringHelpers.hpp\:toString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T> std::string toString (const T & value)}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 3} of file {\b StringHelpers.inl}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+StringHelpers.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/StringHelpers.hpp}
+{\xe \v SFMLFirstProject64/Include/StringHelpers.hpp}
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #ifndef BOOK_STRINGHELPERS_HPP}\par
+00002 {\cf21 #define BOOK_STRINGHELPERS_HPP}\par
+00003 \par
+00004 {\cf21 #include <sstream>}\par
+00005 \par
+00006 {\cf20 // Since std::to_string doesn't work on MinGW we have to implement}\par
+00007 {\cf20 // our own to support all platforms.}\par
+00008 {\cf17 template} <{\cf17 typename} T>\par
+00009 std::string toString({\cf17 const} T& value);\par
+00010 \par
+00011 {\cf21 #include <StringHelpers.inl>}\par
+00012 {\cf21 #endif }{\cf20 // BOOK_STRINGHELPERS_HPP}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/StringHelpers.inl File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/StringHelpers.inl}
+{\xe \v SFMLFirstProject64/Include/StringHelpers.inl}
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+template<typename T> std::string {\b toString} (const T &value)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v toString\:StringHelpers.inl}
+{\xe \v StringHelpers.inl\:toString}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+template<typename T> std::string toString (const T & value)}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 3} of file {\b StringHelpers.inl}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+StringHelpers.inl\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/StringHelpers.inl}
+{\xe \v SFMLFirstProject64/Include/StringHelpers.inl}
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 \par
+00002 {\cf17 template} <{\cf17 typename} T>\par
+00003 std::string toString({\cf17 const} T& value)\par
+00004 \{\par
+00005     std::stringstream stream;\par
+00006     stream << value;\par
+00007     {\cf19 return} stream.str();\par
+00008 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Include/World.hpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/World.hpp}
+{\xe \v SFMLFirstProject64/Include/World.hpp}
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <ResourceHolder.hpp>}\par
+{\f2 #include <ResourceIdentifiers.hpp>}\par
+{\f2 #include <SceneNode.hpp>}\par
+{\f2 #include <SpriteNode.hpp>}\par
+{\f2 #include <Aircraft.hpp>}\par
+{\f2 #include <SFML/System/NonCopyable.hpp>}\par
+{\f2 #include <SFML/Graphics/View.hpp>}\par
+{\f2 #include <SFML/Graphics/Texture.hpp>}\par
+{\f2 #include <array>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Classes\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b World}}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Namespaces\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+namespace {\b sf}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+World.hpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Include/World.hpp}
+{\xe \v SFMLFirstProject64/Include/World.hpp}
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma region step 1}\par
+00002 {\cf21 #pragma once}\par
+00003 \par
+00004 {\cf21 #include <ResourceHolder.hpp>}\par
+00005 {\cf21 #include <ResourceIdentifiers.hpp>}\par
+00006 {\cf21 #include <SceneNode.hpp>}\par
+00007 {\cf21 #include <SpriteNode.hpp>}\par
+00008 {\cf21 #include <Aircraft.hpp>}\par
+00009 \par
+00010 {\cf21 #include <SFML/System/NonCopyable.hpp>}\par
+00011 {\cf21 #include <SFML/Graphics/View.hpp>}\par
+00012 {\cf21 #include <SFML/Graphics/Texture.hpp>}\par
+00013 \par
+00014 {\cf21 #include <array>}\par
+00015 \par
+00016 \par
+00017 {\cf20 // Forward declaration}\par
+00018 {\cf17 namespace }sf\par
+00019 \{\par
+00020     {\cf17 class }RenderWindow;\par
+00021 \}\par
+00022 \par
+00023 {\cf17 class }World : {\cf17 private} sf::NonCopyable\par
+00024 \{\par
+00025     {\cf17 public}:\par
+00026         {\cf17 explicit}                            World(sf::RenderWindow& window);\par
+00027         {\cf18 void}                                update(sf::Time dt);\par
+00028         {\cf18 void}                                draw();\par
+00029         {\cf18 void}                    handlePlayerInput(sf::Keyboard::Key key, {\cf18 bool} isPressed);\par
+00030 \par
+00031     {\cf17 private}:\par
+00032         {\cf18 void}                                loadTextures();\par
+00033         {\cf18 void}                                buildScene();\par
+00034 \par
+00035 \par
+00036     {\cf17 private}:\par
+00037         {\cf17 enum} Layer\par
+00038         \{\par
+00039             Background,\par
+00040             Air,\par
+00041             LayerCount\par
+00042         \};\par
+00043 \par
+00044 \par
+00045     {\cf17 private}:\par
+00046             {\cf17 static} {\cf17 const} {\cf18 float}      PlayerSpeed;\par
+00047         sf::RenderWindow&                   mWindow;\par
+00048         sf::View                            mWorldView;\par
+00049         TextureHolder                      mTextures;\par
+00050 \par
+00051         SceneNode                          mSceneGraph;\par
+00052         std::array<SceneNode*, LayerCount>  mSceneLayers;\par
+00053 \par
+00054         sf::FloatRect                       mWorldBounds;\par
+00055         sf::Vector2f                        mSpawnPosition;\par
+00056         {\cf18 float}                               mScrollSpeed;\par
+00057         Aircraft*                           mPlayerAircraft;\par
+00058 \par
+00059         {\cf18 bool} mIsMovingUp;\par
+00060         {\cf18 bool} mIsMovingDown;\par
+00061         {\cf18 bool} mIsMovingLeft;\par
+00062         {\cf18 bool} mIsMovingRight;\par
+00063 \par
+00064 \};\par
+00065 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Source/Aircraft.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Aircraft.cpp}
+{\xe \v SFMLFirstProject64/Source/Aircraft.cpp}
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <Aircraft.hpp>}\par
+{\f2 #include <ResourceHolder.hpp>}\par
+{\f2 #include <SFML/Graphics/RenderTarget.hpp>}\par
+{\f2 #include <SFML/Graphics/RenderStates.hpp>}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b TextureID} {\b toTextureID} ({\b Aircraft::Type} type)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v toTextureID\:Aircraft.cpp}
+{\xe \v Aircraft.cpp\:toTextureID}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+{\b TextureID} toTextureID ({\b Aircraft::Type} type)}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 10} of file {\b Aircraft.cpp}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Aircraft.cpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Aircraft.cpp}
+{\xe \v SFMLFirstProject64/Source/Aircraft.cpp}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma region step 7}\par
+00002 \par
+00003 {\cf21 #include <Aircraft.hpp>}\par
+00004 {\cf21 #include <ResourceHolder.hpp>}\par
+00005 \par
+00006 {\cf21 #include <SFML/Graphics/RenderTarget.hpp>}\par
+00007 {\cf21 #include <SFML/Graphics/RenderStates.hpp>}\par
+00008 \par
+00009 \par
+00010 TextureID toTextureID(Aircraft::Type type)\par
+00011 \{\par
+00012     {\cf19 switch} (type)\par
+00013     \{\par
+00014     {\cf19 case} Aircraft::Type::Eagle:\par
+00015         {\cf19 return} TextureID::Eagle;\par
+00016 \par
+00017     {\cf19 case} Aircraft::Type::Raptor:\par
+00018         {\cf19 return} TextureID::Raptor;\par
+00019     \}\par
+00020     {\cf19 return} TextureID::Eagle;\par
+00021 \}\par
+00022 \par
+00023 Aircraft::Aircraft(Type type, {\cf17 const} TextureHolder& textures)\par
+00024     : mType(type)\par
+00025     , mSprite(textures.get(toTextureID(type)))\par
+00026 \{\par
+00027     sf::FloatRect bounds = mSprite.getLocalBounds();\par
+00028     {\cf20 //by default, the origin of sprites is located in their upper-left corner}\par
+00029     mSprite.setOrigin(bounds.width / 2.f, bounds.height / 2.f);\par
+00030 \}\par
+00031 \par
+00032 {\cf18 void} Aircraft::drawCurrent(sf::RenderTarget& target, sf::RenderStates states){\cf17  const}\par
+00033 {\cf17 }\{\par
+00034     target.draw(mSprite, states);\par
+00035 \}\par
+00036 \par
+00037 {\cf21 #pragma endregion}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Source/Entity.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Entity.cpp}
+{\xe \v SFMLFirstProject64/Source/Entity.cpp}
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Entity.hpp"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Entity.cpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Entity.cpp}
+{\xe \v SFMLFirstProject64/Source/Entity.cpp}
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #include "Entity.hpp"}\par
+00002 \par
+00003 {\cf18 void} Entity::setVelocity(sf::Vector2f velocity)\par
+00004 \{\par
+00005     mVelocity = velocity;\par
+00006 \}\par
+00007 \par
+00008 {\cf18 void} Entity::setVelocity({\cf18 float} vx, {\cf18 float} vy)\par
+00009 \{\par
+00010     mVelocity.x = vx;\par
+00011     mVelocity.y = vy;\par
+00012 \}\par
+00013 \par
+00014 sf::Vector2f Entity::getVelocity(){\cf17  const}\par
+00015 {\cf17 }\{\par
+00016     {\cf19 return} mVelocity;\par
+00017 \}\par
+00018 \par
+00019 {\cf18 void} Entity::update(sf::Time dt)\par
+00020 \{\par
+00021     move(mVelocity * dt.asSeconds());\par
+00022 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Source/Player.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Player.cpp}
+{\xe \v SFMLFirstProject64/Source/Player.cpp}
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Player.hpp"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Player.cpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Player.cpp}
+{\xe \v SFMLFirstProject64/Source/Player.cpp}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma region step 2}\par
+00002 \par
+00003 {\cf20 //To get your sprite object drawn that is in the player class from the }\par
+00004 {\cf20 //main game loop inside of your main.cpp file you can do it one of two ways }\par
+00005 {\cf20 //(There are more but these are the easiest).}\par
+00006 {\cf20 //A.) Provide a get function that returns a reference to the sf::Sprite object in your player class.}\par
+00007 {\cf20 //B) Look at Player2.hpp!}\par
+00008 \par
+00009 {\cf21 #include "Player.hpp"}\par
+00010 \par
+00011 Player::Player()\par
+00012 \{\par
+00013 \par
+00014     {\cf20 //if (!texture2.loadFromFile("Media/Textures/Eagle.png"))}\par
+00015     {\cf20 //\{}\par
+00016     {\cf20 //  // Handle loading error}\par
+00017     {\cf20 //\}}\par
+00018 \par
+00019     {\cf20 //mSprite.setTexture(texture2);}\par
+00020     {\cf20 //mSprite.setPosition(200.f, 200.f);}\par
+00021     {\cf20 //mSprite.setTexture(texture2);}\par
+00022     textures.load(TextureID::Airplane, {\cf22 "Media/Textures/Eagle.png"});\par
+00023     mSprite.setTexture(textures.get(TextureID::Airplane));\par
+00024     mSprite.setPosition(200.f, 200.f);\par
+00025 \}\par
+00026 \par
+00027 sf::Sprite& Player::getSprite()\par
+00028 \{\par
+00029     {\cf19 return} mSprite;\par
+00030 \}\par
+00031 \par
+00032 \par
+00033 {\cf18 void} Player::draw(sf::RenderTarget& target, sf::RenderStates states){\cf17  const}\par
+00034 {\cf17 }\{\par
+00035     target.draw(mSprite, states);\par
+00036 \}\par
+00037 {\cf18 void} Player::update(sf::Time dt)\par
+00038 \{\par
+00039     {\cf20 //mSprite.move(mVelocity * dt.asSeconds());}\par
+00040 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Source/Player2.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Player2.cpp}
+{\xe \v SFMLFirstProject64/Source/Player2.cpp}
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Player2.hpp"}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Player2.cpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Player2.cpp}
+{\xe \v SFMLFirstProject64/Source/Player2.cpp}
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma region step 4}\par
+00002 \par
+00003 {\cf21 #include "Player2.hpp"}\par
+00004 \par
+00005 Player2::Player2()\par
+00006 \{\par
+00007 \par
+00008     {\cf20 //if (!texture2.loadFromFile("Media/Textures/Eagle.png"))}\par
+00009     {\cf20 //\{}\par
+00010     {\cf20 //  // Handle loading error}\par
+00011     {\cf20 //\}}\par
+00012 \par
+00013     {\cf20 //mSprite.setTexture(texture2);}\par
+00014     {\cf20 //mSprite.setPosition(400.f, 400.f);}\par
+00015 \par
+00016         {\cf20 //mSprite.setTexture(texture2);}\par
+00017     textures.load(TextureID::Airplane, {\cf22 "Media/Textures/Eagle.png"});\par
+00018     mSprite.setTexture(textures.get(TextureID::Airplane));\par
+00019     mSprite.setPosition(400.f, 400.f);\par
+00020 \}\par
+00021 \par
+00022 sf::Sprite& Player2::getSprite()\par
+00023 \{\par
+00024     {\cf19 return} mSprite;\par
+00025 \}\par
+00026 \par
+00027 {\cf18 void} Player2::draw(sf::RenderTarget& target, sf::RenderStates states){\cf17  const}\par
+00028 {\cf17 }\{\par
+00029     target.draw(mSprite, states);\par
+00030 \}\par
+00031 \par
+00032 {\cf18 void} Player2::update(sf::Time dt)\par
+00033 \{\par
+00034     {\cf20 //mSprite.move(mVelocity * dt.asSeconds());}\par
+00035 \}\par
+00036 \par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Source/SceneNode.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/SceneNode.cpp}
+{\xe \v SFMLFirstProject64/Source/SceneNode.cpp}
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <SceneNode.hpp>}\par
+{\f2 #include <algorithm>}\par
+{\f2 #include <cassert>}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SceneNode.cpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/SceneNode.cpp}
+{\xe \v SFMLFirstProject64/Source/SceneNode.cpp}
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma region step 2}\par
+00002 \par
+00003 {\cf21 #include <SceneNode.hpp>}\par
+00004 {\cf21 #include <algorithm>}\par
+00005 {\cf21 #include <cassert>}\par
+00006 \par
+00007 \par
+00008 SceneNode::SceneNode()\par
+00009 : mChildren()\par
+00010 , mParent(nullptr)\par
+00011 \{\par
+00012 \}\par
+00013 \par
+00014 {\cf18 void} SceneNode::attachChild(Ptr child)\par
+00015 \{\par
+00016     child->mParent = {\cf17 this};\par
+00017     mChildren.push_back(std::move(child));\par
+00018 \}\par
+00019 \par
+00020 SceneNode::Ptr SceneNode::detachChild({\cf17 const} SceneNode& node)\par
+00021 \{\par
+00022     {\cf17 auto} found = std::find_if(mChildren.begin(), mChildren.end(), \par
+00023         [&] (Ptr& p) \{ return p.get() == &node; \});\par
+00024     assert(found != mChildren.end());\par
+00025 \par
+00026     Ptr result = std::move(*found);\par
+00027     result->mParent = {\cf17 nullptr};\par
+00028     mChildren.erase(found);\par
+00029     {\cf19 return} result;\par
+00030 \}\par
+00031 \par
+00032 {\cf18 void} SceneNode::update(sf::Time dt)\par
+00033 \{\par
+00034     updateCurrent(dt);\par
+00035     updateChildren(dt);\par
+00036 \}\par
+00037 \par
+00038 {\cf18 void} SceneNode::updateCurrent(sf::Time)\par
+00039 \{\par
+00040     {\cf20 // Do nothing by default}\par
+00041 \}\par
+00042 \par
+00043 {\cf18 void} SceneNode::updateChildren(sf::Time dt)\par
+00044 \{\par
+00045     {\cf19 for} (Ptr& child : mChildren)\par
+00046     \{\par
+00047         child->update(dt);\par
+00048     \}\par
+00049 \}\par
+00050 \par
+00051 {\cf18 void} SceneNode::draw(sf::RenderTarget& target, sf::RenderStates states){\cf17  const}\par
+00052 {\cf17 }\{\par
+00053     {\cf20 // Apply transform of current node}\par
+00054     states.transform *= getTransform();\par
+00055 \par
+00056     {\cf20 // Draw node and children with changed transform}\par
+00057     drawCurrent(target, states);\par
+00058     drawChildren(target, states);\par
+00059 \}\par
+00060 \par
+00061 {\cf18 void} SceneNode::drawCurrent(sf::RenderTarget&, sf::RenderStates){\cf17  const}\par
+00062 {\cf17 }\{\par
+00063     {\cf20 // Do nothing by default}\par
+00064 \}\par
+00065 \par
+00066 {\cf18 void} SceneNode::drawChildren(sf::RenderTarget& target, sf::RenderStates states){\cf17  const}\par
+00067 {\cf17 }\{\par
+00068     {\cf19 for}({\cf17 const} Ptr& child : mChildren)\par
+00069         child->draw(target, states);\par
+00070 \}\par
+00071 \par
+00072 sf::Vector2f SceneNode::getWorldPosition(){\cf17  const}\par
+00073 {\cf17 }\{\par
+00074     {\cf19 return} getWorldTransform() * sf::Vector2f();\par
+00075 \}\par
+00076 \par
+00077 sf::Transform SceneNode::getWorldTransform(){\cf17  const}\par
+00078 {\cf17 }\{\par
+00079     sf::Transform transform = sf::Transform::Identity;\par
+00080 \par
+00081     {\cf19 for} ({\cf17 const} SceneNode* node = {\cf17 this}; node != {\cf17 nullptr}; node = node->mParent)\par
+00082         transform = node->getTransform() * transform;\par
+00083 \par
+00084     {\cf19 return} transform;\par
+00085 \}\par
+00086 \par
+00087 {\cf21 #pragma endregion}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Source/SpriteNode.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/SpriteNode.cpp}
+{\xe \v SFMLFirstProject64/Source/SpriteNode.cpp}
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <SpriteNode.hpp>}\par
+{\f2 #include <SFML/Graphics/RenderTarget.hpp>}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SpriteNode.cpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/SpriteNode.cpp}
+{\xe \v SFMLFirstProject64/Source/SpriteNode.cpp}
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma region 9}\par
+00002 {\cf21 #include <SpriteNode.hpp>}\par
+00003 \par
+00004 {\cf21 #include <SFML/Graphics/RenderTarget.hpp>}\par
+00005 \par
+00006 \par
+00007 SpriteNode::SpriteNode({\cf17 const} sf::Texture& texture)\par
+00008 : mSprite(texture)\par
+00009 \{\par
+00010 \}   \par
+00011 \par
+00012 SpriteNode::SpriteNode({\cf17 const} sf::Texture& texture, {\cf17 const} sf::IntRect& textureRect)\par
+00013 : mSprite(texture, textureRect)\par
+00014 \{\par
+00015 \}\par
+00016 \par
+00017 {\cf18 void} SpriteNode::drawCurrent(sf::RenderTarget& target, sf::RenderStates states){\cf17  const}\par
+00018 {\cf17 }\{\par
+00019     target.draw(mSprite, states);\par
+00020 \}\par
+00021 {\cf21 #pragma endregion}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Source/Week3-Demo1-main.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Week3-Demo1-main.cpp}
+{\xe \v SFMLFirstProject64/Source/Week3-Demo1-main.cpp}
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Generalizing the approach: {\b ResourceHolder} We have implemented everything we need for textures, but we would like to handle other resources such as fonts and sound buffers too. As the implementation looks extremely similar for them, it would be a bad idea to write new classes {\b FontHolder} and SoundBufferHolder with exactly the same functionality. Instead, we write a class template, which we instantiate for different resource classes. We call our template {\b ResourceHolder} and equip it with two template parameters: \'95 Resource: The type of resource, for example, sf::Texture. We design the class template to work the SFML classes, but if you have your own resource class which conforms to the required interface (providing loadFromFile() methods), nothing keeps you from using it together with {\b ResourceHolder}. \'95 Identifier: The ID type for resource access, for example, {\b Textures::ID}. This will usually be an enum, but the type is not restricted to enumerations. Any type that supports an operator< can be used as identifier, for example, std::string. }}\par
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "Game.hpp"}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Functions\par
+\pard\plain 
+
+{
+\pard\plain \s120\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+int {\b main} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Detailed Description\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Generalizing the approach: {\b ResourceHolder} We have implemented everything we need for textures, but we would like to handle other resources such as fonts and sound buffers too. As the implementation looks extremely similar for them, it would be a bad idea to write new classes {\b FontHolder} and SoundBufferHolder with exactly the same functionality. Instead, we write a class template, which we instantiate for different resource classes. We call our template {\b ResourceHolder} and equip it with two template parameters: \'95 Resource: The type of resource, for example, sf::Texture. We design the class template to work the SFML classes, but if you have your own resource class which conforms to the required interface (providing loadFromFile() methods), nothing keeps you from using it together with {\b ResourceHolder}. \'95 Identifier: The ID type for resource access, for example, {\b Textures::ID}. This will usually be an enum, but the type is not restricted to enumerations. Any type that supports an operator< can be used as identifier, for example, std::string. \par
+}{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+\par
+{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Author\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid {\s17 \sa60 \sb30
+Hooman Salamat \par
+}}{{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs16\cgrid 
+Bug:\par}\pard\plain \s81\li360\widctlpar\ql\adjustright \fs20\cgrid No known bugs. \par
+}
+}{
+Definition in file {\b Week3-Demo1-main.cpp}.}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Function Documentation\par
+\pard\plain 
+{\xe \v main\:Week3-Demo1-main.cpp}
+{\xe \v Week3-Demo1-main.cpp\:main}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+int main ()}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s61\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Definition at line {\b 24} of file {\b Week3-Demo1-main.cpp}.}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Week3-Demo1-main.cpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/Week3-Demo1-main.cpp}
+{\xe \v SFMLFirstProject64/Source/Week3-Demo1-main.cpp}
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 \par
+00021 \par
+00022 {\cf21 #include "Game.hpp"}\par
+00023 \par
+00024 {\cf18 int} main()\par
+00025 \{\par
+00026     Game game;\par
+00027     game.run();\par
+00028 \par
+00029 \}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+SFMLFirstProject64/Source/World.cpp File Reference\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/World.cpp}
+{\xe \v SFMLFirstProject64/Source/World.cpp}
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <World.hpp>}\par
+{\f2 #include <SFML/Graphics/RenderWindow.hpp>}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+World.cpp\par \pard\plain 
+{\tc\tcl2 \v SFMLFirstProject64/Source/World.cpp}
+{\xe \v SFMLFirstProject64/Source/World.cpp}
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+Go to the documentation of this file.\par
+{
+\par
+\pard\plain \s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid 00001 {\cf21 #pragma region step 2}\par
+00002 {\cf21 #include <World.hpp>}\par
+00003 \par
+00004 {\cf21 #include <SFML/Graphics/RenderWindow.hpp>}\par
+00005 \par
+00006 \par
+00007 World::World(sf::RenderWindow& window)\par
+00008 : mWindow(window)\par
+00009 , mWorldView(window.getDefaultView())\par
+00010 , mTextures() \par
+00011 , mSceneGraph()\par
+00012 , mSceneLayers()\par
+00013 , mWorldBounds(0.f, 0.f, mWorldView.getSize().x, 2000.f)\par
+00014 , mSpawnPosition(mWorldView.getSize().x / 2.f, mWorldBounds.height - mWorldView.getSize().y / 2.f)\par
+00015 , mScrollSpeed(-50.f)\par
+00016 , mPlayerAircraft(nullptr)\par
+00017 , mIsMovingUp(false)\par
+00018 , mIsMovingDown(false)\par
+00019 , mIsMovingLeft(false)\par
+00020 , mIsMovingRight(false)\par
+00021 \{\par
+00022     loadTextures();\par
+00023     buildScene();\par
+00024 \par
+00025     {\cf20 // Prepare the view}\par
+00026     mWorldView.setCenter(mSpawnPosition);\par
+00027 \}\par
+00028 \par
+00029 {\cf18 void} World::update(sf::Time dt)\par
+00030 \{\par
+00031     {\cf20 // Scroll the world}\par
+00032     mWorldView.move(0.f, mScrollSpeed * dt.asSeconds());    \par
+00033 \par
+00034     {\cf20 // Move the player sidewards (plane scouts follow the main aircraft)}\par
+00035     sf::Vector2f position = mPlayerAircraft->getPosition();\par
+00036     sf::Vector2f velocity = mPlayerAircraft->getVelocity();\par
+00037 \par
+00038     {\cf20 // If player touches borders, flip its X velocity}\par
+00039     {\cf19 if} (position.x <= mWorldBounds.left + 150.f\par
+00040      || position.x >= mWorldBounds.left + mWorldBounds.width - 150.f)\par
+00041     \{\par
+00042         velocity.x = -velocity.x;\par
+00043         mPlayerAircraft->setVelocity(velocity);\par
+00044     \}\par
+00045 \par
+00046     {\cf20 // Calculate movement vector}\par
+00047     sf::Vector2f movement(0.f, 0.f);\par
+00048     {\cf19 if} (mIsMovingUp)\par
+00049         movement.y -= PlayerSpeed;\par
+00050     {\cf19 if} (mIsMovingDown)\par
+00051         movement.y += PlayerSpeed;\par
+00052     {\cf19 if} (mIsMovingLeft)\par
+00053         movement.x -= PlayerSpeed;\par
+00054     {\cf19 if} (mIsMovingRight)\par
+00055         movement.x += PlayerSpeed;\par
+00056 \par
+00057     {\cf20 // Move the player aircraft (if it's set up)}\par
+00058     {\cf19 if} (mPlayerAircraft)\par
+00059         mPlayerAircraft->move(movement * dt.asSeconds());\par
+00060     {\cf20 // Apply movements}\par
+00061     mSceneGraph.update(dt);\par
+00062 \}\par
+00063 \par
+00064 {\cf18 void} World::draw()\par
+00065 \{\par
+00066     mWindow.setView(mWorldView);\par
+00067     mWindow.draw(mSceneGraph);\par
+00068 \}\par
+00069 \par
+00070 {\cf18 void} World::handlePlayerInput(sf::Keyboard::Key key, {\cf18 bool} isPressed)\par
+00071 \{\par
+00072     {\cf19 if} (key == sf::Keyboard::W || key == sf::Keyboard::Up)\par
+00073         mIsMovingUp = isPressed;\par
+00074     {\cf19 else} {\cf19 if} (key == sf::Keyboard::S || key == sf::Keyboard::Down)\par
+00075         mIsMovingDown = isPressed;\par
+00076     {\cf19 else} {\cf19 if} (key == sf::Keyboard::A || key == sf::Keyboard::Left)\par
+00077         mIsMovingLeft = isPressed;\par
+00078     {\cf19 else} {\cf19 if} (key == sf::Keyboard::D || key == sf::Keyboard::Right)\par
+00079         mIsMovingRight = isPressed;\par
+00080 \}\par
+00081 \par
+00082 {\cf18 void} World::loadTextures()\par
+00083 \{\par
+00084     mTextures.load(TextureID::Eagle, {\cf22 "Media/Textures/Eagle.png"});\par
+00085     mTextures.load(TextureID::Raptor, {\cf22 "Media/Textures/Raptor.png"});\par
+00086     mTextures.load(TextureID::Desert, {\cf22 "Media/Textures/Desert.png"});\par
+00087 \}\par
+00088 \par
+00089 {\cf18 void} World::buildScene()\par
+00090 \{\par
+00091     {\cf20 // Initialize the different layers}\par
+00092     {\cf19 for} (std::size_t i = 0; i < LayerCount; ++i)\par
+00093     \{\par
+00094         SceneNode::Ptr layer({\cf17 new} SceneNode());\par
+00095         mSceneLayers[i] = layer.get();\par
+00096 \par
+00097         mSceneGraph.attachChild(std::move(layer));\par
+00098     \}\par
+00099 \par
+00100     {\cf20 // Prepare the tiled background}\par
+00101     sf::Texture& texture = mTextures.get(TextureID::Desert);\par
+00102     sf::IntRect textureRect(mWorldBounds);\par
+00103     texture.setRepeated({\cf17 true});\par
+00104 \par
+00105     {\cf20 // Add the background sprite to the scene}\par
+00106     std::unique_ptr<SpriteNode> backgroundSprite({\cf17 new} SpriteNode(texture, textureRect));\par
+00107     backgroundSprite->setPosition(mWorldBounds.left, mWorldBounds.top);\par
+00108     mSceneLayers[Background]->attachChild(std::move(backgroundSprite));\par
+00109 \par
+00110     {\cf20 // Add player's aircraft}\par
+00111     std::unique_ptr<Aircraft> leader({\cf17 new} Aircraft(Aircraft::Type::Eagle, mTextures));\par
+00112     mPlayerAircraft = leader.get();\par
+00113     mPlayerAircraft->setPosition(mSpawnPosition);\par
+00114     mPlayerAircraft->setVelocity(40.f, mScrollSpeed);\par
+00115     mSceneLayers[Air]->attachChild(std::move(leader));\par
+00116 \par
+00117     {\cf20 // Add two escorting aircrafts, placed relatively to the main plane}\par
+00118     std::unique_ptr<Aircraft> leftEscort({\cf17 new} Aircraft(Aircraft::Type::Raptor, mTextures));\par
+00119     leftEscort->setPosition(-80.f, 50.f);\par
+00120     mPlayerAircraft->attachChild(std::move(leftEscort));\par
+00121 \par
+00122     std::unique_ptr<Aircraft> rightEscort({\cf17 new} Aircraft(Aircraft::Type::Raptor, mTextures));\par
+00123     rightEscort->setPosition(80.f, 50.f); \par
+00124     mPlayerAircraft->attachChild(std::move(rightEscort));\par
+00125 \}\par
+00126 \par
+00127 {\cf21 #pragma region step 2}\par
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Index\par 
+\pard\plain 
+{\tc \v Index}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

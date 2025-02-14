@@ -1,0 +1,23 @@
+\doxysection{SFMLFirst\+Project64/\+Source Directory Reference}
+\hypertarget{dir_697b96e3375d416de3804d434063ebf7}{}\label{dir_697b96e3375d416de3804d434063ebf7}\index{SFMLFirstProject64/Source Directory Reference@{SFMLFirstProject64/Source Directory Reference}}
+\doxysubsubsection*{Files}
+\begin{DoxyCompactItemize}
+\item 
+file \mbox{\hyperlink{_aircraft_8cpp}{Aircraft.\+cpp}}
+\item 
+file \mbox{\hyperlink{_entity_8cpp}{Entity.\+cpp}}
+\item 
+file \mbox{\hyperlink{4_2_source_2game_8cpp}{Game.\+cpp}}
+\item 
+file \mbox{\hyperlink{_player_8cpp}{Player.\+cpp}}
+\item 
+file \mbox{\hyperlink{_player2_8cpp}{Player2.\+cpp}}
+\item 
+file \mbox{\hyperlink{_scene_node_8cpp}{Scene\+Node.\+cpp}}
+\item 
+file \mbox{\hyperlink{_sprite_node_8cpp}{Sprite\+Node.\+cpp}}
+\item 
+file \mbox{\hyperlink{_week3-_demo1-main_8cpp}{Week3-\/\+Demo1-\/main.\+cpp}}
+\begin{DoxyCompactList}\small\item\em Generalizing the approach\+: \doxylink{class_resource_holder}{Resource\+Holder} We have implemented everything we need for textures, but we would like to handle other resources such as fonts and sound buffers too. As the implementation looks extremely similar for them, it would be a bad idea to write new classes \doxylink{_resource_identifiers_8hpp_a4dd8f1c935b1c957b8628dcbd63ab304}{Font\+Holder} and Sound\+Buffer\+Holder with exactly the same functionality. Instead, we write a class template, which we instantiate for different resource classes. We call our template \doxylink{class_resource_holder}{Resource\+Holder} and equip it with two template parameters\+: • Resource\+: The type of resource, for example, sf\+::\+Texture. We design the class template to work the SFML classes, but if you have your own resource class which conforms to the required interface (providing load\+From\+File() methods), nothing keeps you from using it together with \doxylink{class_resource_holder}{Resource\+Holder}. • Identifier\+: The ID type for resource access, for example, \doxylink{namespace_textures_a2cfe2099537d4e80b08437b4978301a5}{Textures\+::\+ID}. This will usually be an enum, but the type is not restricted to enumerations. Any type that supports an operator\texorpdfstring{$<$}{<} can be used as identifier, for example, std\+::string. \end{DoxyCompactList}\item 
+file \mbox{\hyperlink{_world_8cpp}{World.\+cpp}}
+\end{DoxyCompactItemize}

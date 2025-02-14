@@ -1,0 +1,43 @@
+\doxysection{Aircraft.\+cpp}
+\hypertarget{_aircraft_8cpp_source}{}\label{_aircraft_8cpp_source}\index{SFMLFirstProject64/Source/Aircraft.cpp@{SFMLFirstProject64/Source/Aircraft.cpp}}
+\mbox{\hyperlink{_aircraft_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00001}00001\ \textcolor{preprocessor}{\#pragma\ region\ step\ 7}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00002}00002\ }
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00003}00003\ \textcolor{preprocessor}{\#include\ <\mbox{\hyperlink{_aircraft_8hpp}{Aircraft.hpp}}>}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00004}00004\ \textcolor{preprocessor}{\#include\ <\mbox{\hyperlink{_resource_holder_8hpp}{ResourceHolder.hpp}}>}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00005}00005\ }
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00006}00006\ \textcolor{preprocessor}{\#include\ <SFML/Graphics/RenderTarget.hpp>}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00007}00007\ \textcolor{preprocessor}{\#include\ <SFML/Graphics/RenderStates.hpp>}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00008}00008\ }
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00009}00009\ }
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00010}\mbox{\hyperlink{_aircraft_8cpp_aae2daef6d8125ff2dea04d721a145a1c}{00010}}\ \mbox{\hyperlink{_resource_identifiers_8hpp_aac8c8e4db184e4a83ec51cdec293c11d}{TextureID}}\ \mbox{\hyperlink{_aircraft_8cpp_aae2daef6d8125ff2dea04d721a145a1c}{toTextureID}}(\mbox{\hyperlink{class_aircraft_a7dae28542933e088032b753600046acd}{Aircraft::Type}}\ type)}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00011}00011\ \{}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00012}00012\ \ \ \ \ \textcolor{keywordflow}{switch}\ (type)}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00013}00013\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00014}00014\ \ \ \ \ \textcolor{keywordflow}{case}\ \mbox{\hyperlink{class_aircraft_a7dae28542933e088032b753600046acda7885830f9d3a8722f628e2985cd26daf}{Aircraft::Type::Eagle}}:}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00015}00015\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{_resource_identifiers_8hpp_aac8c8e4db184e4a83ec51cdec293c11da7885830f9d3a8722f628e2985cd26daf}{TextureID::Eagle}};}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00016}00016\ }
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00017}00017\ \ \ \ \ \textcolor{keywordflow}{case}\ \mbox{\hyperlink{class_aircraft_a7dae28542933e088032b753600046acda6cb576ec13726583fab7df279410f9b2}{Aircraft::Type::Raptor}}:}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00018}00018\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{_resource_identifiers_8hpp_aac8c8e4db184e4a83ec51cdec293c11da6cb576ec13726583fab7df279410f9b2}{TextureID::Raptor}};}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00019}00019\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00020}00020\ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{_resource_identifiers_8hpp_aac8c8e4db184e4a83ec51cdec293c11da7885830f9d3a8722f628e2985cd26daf}{TextureID::Eagle}};}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00021}00021\ \}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00022}00022\ }
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00023}\mbox{\hyperlink{class_aircraft_ae42f913aa28db8c4657e515a583af1d2}{00023}}\ \mbox{\hyperlink{class_aircraft_ae42f913aa28db8c4657e515a583af1d2}{Aircraft::Aircraft}}(\mbox{\hyperlink{class_aircraft_a7dae28542933e088032b753600046acd}{Type}}\ type,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{_resource_identifiers_8hpp_a20081b48ee5a91313685df1b4fa610d1}{TextureHolder}}\&\ textures)}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00024}00024\ \ \ \ \ :\ mType(type)}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00025}00025\ \ \ \ \ ,\ mSprite(textures.get(\mbox{\hyperlink{_aircraft_8cpp_aae2daef6d8125ff2dea04d721a145a1c}{toTextureID}}(type)))}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00026}00026\ \{}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00027}00027\ \ \ \ \ sf::FloatRect\ bounds\ =\ mSprite.getLocalBounds();}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00028}00028\ \ \ \ \ \textcolor{comment}{//by\ default,\ the\ origin\ of\ sprites\ is\ located\ in\ their\ upper-\/left\ corner}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00029}00029\ \ \ \ \ mSprite.setOrigin(bounds.width\ /\ 2.f,\ bounds.height\ /\ 2.f);}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00030}00030\ \}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00031}00031\ }
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00032}00032\ \textcolor{keywordtype}{void}\ Aircraft::drawCurrent(sf::RenderTarget\&\ target,\ sf::RenderStates\ states)\textcolor{keyword}{\ const}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00033}00033\ \textcolor{keyword}{}\{}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00034}00034\ \ \ \ \ target.draw(mSprite,\ states);}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00035}00035\ \}}
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00036}00036\ }
+\DoxyCodeLine{\Hypertarget{_aircraft_8cpp_source_l00037}00037\ \textcolor{preprocessor}{\#pragma\ endregion}}
+
+\end{DoxyCode}

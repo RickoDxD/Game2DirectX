@@ -7,8 +7,11 @@
 #include <SFML/Graphics/Transformable.hpp>
 #include <SFML/Graphics/Drawable.hpp>
 #include "ResourceIdentifiers.hpp"
+#include "ResourceHolder.hpp"
+#include "Entity.hpp"
 
-class Player
+
+class Player : public Entity
 {
 
 public:
@@ -25,9 +28,13 @@ public:
 
 	sf::Sprite& getSprite();
 
+	virtual	void draw(sf::RenderTarget& target, sf::RenderStates states) const;
+	void update(sf::Time);
+
 private:
+
 	sf::Sprite mSprite;
 	sf::Texture texture2;
+	TextureHolder textures;
 };
 
-#pragma endregion

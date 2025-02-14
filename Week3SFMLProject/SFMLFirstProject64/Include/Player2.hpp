@@ -15,7 +15,13 @@
 #include <SFML/Graphics/Transformable.hpp>
 #include <SFML/Graphics/Drawable.hpp>
 
-class Player2 : public sf::Drawable, public sf::Transformable
+#include "ResourceIdentifiers.hpp"
+#include "ResourceHolder.hpp"
+#include "Entity.hpp"
+
+//class Player2 : public sf::Drawable, public sf::Transformable
+
+class Player2 : public Entity
 {
 
 public:
@@ -35,12 +41,12 @@ public:
 	//SFML's high-level classes Sprite, Text, and Shape are all derived fromTransformable and Drawable.
 
 	virtual	void draw(sf::RenderTarget& target, sf::RenderStates states) const;
+	void update(sf::Time);
 
 
 private:
-	sf::Sprite mSprite;
-	sf::Texture texture2;
 
+	sf::Sprite mSprite;
+	TextureHolder textures;
 };
 
-#pragma endregion

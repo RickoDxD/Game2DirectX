@@ -19,9 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Include\Aircraft.hpp" />
+    <ClInclude Include="Include\Entity.hpp" />
     <ClInclude Include="Include\Game.hpp" />
+    <ClInclude Include="Include\Player.hpp" />
+    <ClInclude Include="Include\Player2.hpp" />
     <ClInclude Include="Include\ResourceHolder.hpp" />
+    <ClInclude Include="Include\ResourceIdentifiers.hpp" />
+    <ClInclude Include="Include\SceneNode.hpp" />
+    <ClInclude Include="Include\SpriteNode.hpp" />
     <ClInclude Include="Include\StringHelpers.hpp" />
+    <ClInclude Include="Include\World.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Include\ResourceHolder.inl" />
@@ -29,8 +37,15 @@
     <None Include="Media\Sound\nice_music.ogg" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Source\Aircraft.cpp" />
+    <ClCompile Include="Source\Entity.cpp" />
     <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\Player.cpp" />
+    <ClCompile Include="Source\Player2.cpp" />
+    <ClCompile Include="Source\SceneNode.cpp" />
+    <ClCompile Include="Source\SpriteNode.cpp" />
     <ClCompile Include="Source\Week3-Demo1-main.cpp" />
+    <ClCompile Include="Source\World.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Media\Textures\cute_image.jpg" />
@@ -38,6 +53,7 @@
     <Image Include="Media\Textures\Eagle.png" />
     <Image Include="Media\Textures\icon.png" />
     <Image Include="Media\Textures\Mushroom.png" />
+    <Image Include="Media\Textures\Raptor.png" />
   </ItemGroup>
   <ItemGroup>
     <Media Include="Media\Sound\nice_music.wav" />
